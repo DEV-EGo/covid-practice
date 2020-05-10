@@ -52,3 +52,15 @@ function WorldMap(WorldGrid) {
 }
 
 WorldMap(country);
+
+console.log("==========================");
+
+var RPG = ["TUROK", "RESIDENTEVIL", "HALO", "DOOM", "GEARS OF WAR", "GRAND THEFT AUTO"];
+
+function ShootingGames(GameLibrary) {
+    for (var i = 0; i < GameLibrary.length; i++) {
+        console.log(GameLibrary[i] + " is the winner of this years award");
+    }
+}
+
+ShootingGames(RPG);
