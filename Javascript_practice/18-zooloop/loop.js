@@ -90,4 +90,13 @@ function Label(MusicGroups) {
         console.log(MusicGroups[i] + " Is taking Over the 2000's");
     }
 }
-Label(MusicGroups)
+Label(MusicGroups);
+
+var Dog = ["Sharpei", "BullMastiff", "Chihuahua", "DobberMan", "Rottweiller"];
+function breed(Doggo) {
+    for (var i = 0; i < Doggo.length; i++) {
+        console.log(Doggo[i] + " needs a new home");
+    }
+}
+
+breed(Dog);
