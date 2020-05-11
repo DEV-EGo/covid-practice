@@ -129,6 +129,7 @@ function DontTrust(TheseHoes) {
 DontTrust(hoes);
 
 console.log("==========================");
+
 var Trust = ["Eppi", "Noel", "Miguel", "juju", "Jrez"];
 function infinite(cashFlow) {
     for (var i = 0; i < cashFlow.length; i++) {
@@ -136,3 +137,14 @@ function infinite(cashFlow) {
     }
 }
 infinite(Trust);
+
+console.log("==========================");
+
+var rapper = [" lil wayner", " Drake", "bad bunny", " Ice Cube", " Modd Deep", " THe Notorious BIG", "2pac"];
+
+function OGRapper(GangstaRapper) {
+    for (var i = 0; i < GangstaRapper.length; i++) {
+        console.log("the Best Rapper of his time was " + GangstaRapper[i]);
+    }
+}
+OGRapper(rapper);
