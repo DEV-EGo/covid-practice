@@ -64,3 +64,14 @@ function ShootingGames(GameLibrary) {
 }
 
 ShootingGames(RPG);
+
+console.log("==========================");
+
+var planets = [" earth", " Mars", " Pluto", " Venus"];
+
+function SolarSystem(MilkyWay) {
+    for (var i = 0; i < MilkyWay.length; i++) {
+        console.log(MilkyWay[i]);
+    }
+}
+SolarSystem(planets);
