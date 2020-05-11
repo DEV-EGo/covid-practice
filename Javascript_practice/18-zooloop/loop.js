@@ -76,6 +76,8 @@ function SolarSystem(MilkyWay) {
 }
 SolarSystem(planets);
 
+console.log("==========================");
+
 var states = ["NY", "NC", "LA", "WA", "Texas"];
 function liberals(states) {
     for (var i = 0; i < states.length; i++) {
@@ -83,6 +85,8 @@ function liberals(states) {
     }
 }
 liberals(states);
+
+console.log("==========================");
 
 var MusicGroups = ["BadBoy", "DeathRow", "CashMoney", "RocAFella"];
 function Label(MusicGroups) {
@@ -92,6 +96,8 @@ function Label(MusicGroups) {
 }
 Label(MusicGroups);
 
+console.log("==========================");
+
 var Dog = ["Sharpei", "BullMastiff", "Chihuahua", "DobberMan", "Rottweiller"];
 function breed(Doggo) {
     for (var i = 0; i < Doggo.length; i++) {
@@ -100,3 +106,24 @@ function breed(Doggo) {
 }
 
 breed(Dog);
+
+console.log("==========================");
+
+var Mythology = ["Thor", "KRATOS", "ODIN", "Loki"];
+function Vikings(Gods) {
+    for (var i = 0; i < Gods.length; i++) {
+        console.log(Gods[i] + " Shall live the rest of his life in Valhalla");
+    }
+}
+Vikings(Mythology);
+
+console.log("==========================");
+
+var hoes = ["Dixie", "Ashlee", "Crystal", "lauren", "Yisenia", "Gladys", "Guera", "Brenda", "Betty", "Alexis"];
+function DontTrust(TheseHoes) {
+    for (var i = 0; i < TheseHoes.length; i++) {
+        console.log(TheseHoes[i] + " is going to ruin your life");
+    }
+}
+
+DontTrust(hoes);
