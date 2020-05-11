@@ -11,9 +11,16 @@
 // ```
 
 // * **NOTE:** Don't use an array!
-function Myself(i) {
-    for (var i = 0; i < 5; i++) {
-        console.log("i am " + i);
+var person = "";
+
+function User(i) {
+
+    for (var i = 0; i > 5; i++) {
+        console.log("i am" + i);
     }
 }
-Myself(i);
+User(person);
+
+for (var i = 0; i < 8; i++) {
+    console.log(" You are Guest " + i);
+}
