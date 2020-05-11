@@ -75,3 +75,19 @@ function SolarSystem(MilkyWay) {
     }
 }
 SolarSystem(planets);
+
+var states = ["NY", "NC", "LA", "WA", "Texas"];
+function liberals(states) {
+    for (var i = 0; i < states.length; i++) {
+        console.log(states[i]);
+    }
+}
+liberals(states);
+
+var MusicGroups = ["BadBoy", "DeathRow", "CashMoney", "RocAFella"];
+function Label(MusicGroups) {
+    for (var i = 0; i < MusicGroups.length; i++) {
+        console.log(MusicGroups[i] + " Is taking Over the 2000's");
+    }
+}
+Label(MusicGroups)
