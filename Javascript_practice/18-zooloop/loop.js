@@ -127,3 +127,12 @@ function DontTrust(TheseHoes) {
 }
 
 DontTrust(hoes);
+
+console.log("==========================");
+var Trust = ["Eppi", "Noel", "Miguel", "juju", "Jrez"];
+function infinite(cashFlow) {
+    for (var i = 0; i < cashFlow.length; i++) {
+        console.log(cashFlow[i] + " is under observation");
+    }
+}
+infinite(Trust);
