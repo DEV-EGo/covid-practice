@@ -27,16 +27,27 @@ for (var i = 0; i < arrayLength; i++) {
     }
 }
 
-var WildLife = ["Lion", "Gorilla", "Ostrich", "Leapord", "Elephant", "Monkey"]
+var moreLetters = [" tiger", "shorts", "trigger", "sandals", "timmy"];
+var LettersInArray = moreLetters.length;
 
-var ExoticeLength = WildLife.length;
+for (var i = 0; i < LettersInArray; i++) {
+    console.log(moreLetters[i]);
 
-for (var i = 0; i < ExoticeLength; i++) {
-    console.log(WildLife[i]);
-    if (WildLife[i].charAt(0) === "L" || WildLife[i].charAt(0) === "O") {
-        alert(" pop up was triggered with the letter L or O");
+    if (moreLetters[i].charAt(0) === "t" || moreLetters[i].charAt(0) === "s") {
+        alert("this should pop up");
     }
 }
+
+// var WildLife = ["Lion", "Gorilla", "Ostrich", "Leapord", "Elephant", "Monkey"]
+
+// var ExoticeLength = WildLife.length;
+
+// for (var i = 0; i < ExoticeLength; i++) {
+//     console.log(WildLife[i]);
+//     if (WildLife[i].charAt(0) === "L" || WildLife[i].charAt(0) === "O") {
+//         alert(" pop up was triggered with the letter L or O");
+//     }
+// }
 
 // console.log("==============================================================");
 
