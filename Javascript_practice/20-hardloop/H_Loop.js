@@ -26,3 +26,19 @@ for (var i = 0; i < arrayLength; i++) {
         alert("starts with the letter A C or an O");
     }
 }
+
+console.log("==============================================================");
+
+var MyCars = ["370z", "F-RS", "Escalade", "Ford F150", "350z"];
+
+var CarArrayLength = MyCars.length;
+
+for (var i = 0; i < CarArrayLength; i++) {
+    console.log(MyCars[i]);
+
+    if (MyCars[i].charAt(0) === "F" || MyCars[i].charAt(0) === "E") {
+        alert(" Starts with the letter F or E ");
+    }
+}
+
+console.log("==============================================================");
