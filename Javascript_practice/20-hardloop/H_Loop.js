@@ -13,7 +13,20 @@
 // * Then check if the first letter in the animal's name begins with a "c" or "o". If it does, create an alert saying, "Starts with 'c' or 'o'!"
 
 // * **HINT:** You can access the first character of a string as if it were the first element of an array.
+console.log("====================PRACTICE==================================")
 
+var Sandwich = ["Subway", " FireHouse", "Salami", "FettaCheese sub"];
+
+var ArrayForSandwich = Sandwich.length;
+
+for (var i = 0; i < ArrayForSandwich; i++) {
+    console.log(Sandwich[i]);
+    if (Sandwich[i].charAt(0) === "S" || Sandwich[i].charAt(0) === "F") {
+        alert("F and S were found in the back end");
+    }
+}
+
+console.log("====================PRACTICE==================================")
 
 var myFarm = ["chicken", " Pigs", " cows", " horses", " ostriches"];
 
@@ -27,16 +40,17 @@ for (var i = 0; i < arrayLength; i++) {
     }
 }
 
-var moreLetters = [" tiger", "shorts", "trigger", "sandals", "timmy"];
-var LettersInArray = moreLetters.length;
+// var moreLetters = [" tiger", "shorts", "trigger", "sandals", "timmy"];
 
-for (var i = 0; i < LettersInArray; i++) {
-    console.log(moreLetters[i]);
+// var LettersInArray = moreLetters.length;
 
-    if (moreLetters[i].charAt(0) === "t" || moreLetters[i].charAt(0) === "s") {
-        alert("this should pop up");
-    }
-}
+// for (var i = 0; i < LettersInArray; i++) {
+//     console.log(moreLetters[i]);
+
+//     if (moreLetters[i].charAt(0) === "t" || moreLetters[i].charAt(0) === "s") {
+//         alert("this should pop up");
+//     }
+// }
 
 // var WildLife = ["Lion", "Gorilla", "Ostrich", "Leapord", "Elephant", "Monkey"]
 
