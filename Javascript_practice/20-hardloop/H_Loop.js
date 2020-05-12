@@ -27,31 +27,42 @@ for (var i = 0; i < arrayLength; i++) {
     }
 }
 
-console.log("==============================================================");
+var WildLife = ["Lion", "Gorilla", "Ostrich", "Leapord", "Elephant", "Monkey"]
 
-var MyCars = ["370z", "F-RS", "Escalade", "Ford F150", "350z"];
+var ExoticeLength = WildLife.length;
 
-var CarArrayLength = MyCars.length;
-
-for (var i = 0; i < CarArrayLength; i++) {
-    console.log(MyCars[i]);
-
-    if (MyCars[i].charAt(0) === "F" || MyCars[i].charAt(0) === "E") {
-        alert(" Starts with the letter F or E ");
+for (var i = 0; i < ExoticeLength; i++) {
+    console.log(WildLife[i]);
+    if (WildLife[i].charAt(0) === "L" || WildLife[i].charAt(0) === "O") {
+        alert(" pop up was triggered with the letter L or O");
     }
 }
 
-console.log("==============================================================");
+// console.log("==============================================================");
 
-var FavoriteGames = [" GTA", " Doom", "Need For SPeed", "COD"];
+// var MyCars = ["370z", "F-RS", "Escalade", "Ford F150", "350z"];
 
-var GameArrayLength = FavoriteGames.length;
+// var CarArrayLength = MyCars.length;
 
-for (var i = 0; i < GameArrayLength; i++) {
+// for (var i = 0; i < CarArrayLength; i++) {
+//     console.log(MyCars[i]);
 
-    console.log(FavoriteGames[i]);
+//     if (MyCars[i].charAt(0) === "F" || MyCars[i].charAt(0) === "E") {
+//         alert(" Starts with the letter F or E ");
+//     }
+// }
 
-    if (FavoriteGames[i].charAt(0) === "G" || FavoriteGames[i].charAt(0) === "N"); {
-        alert("starts with the letter G or N");
-    }
-}
+// console.log("==============================================================");
+
+// var FavoriteGames = [" GTA", " Doom", "Need For SPeed", "COD"];
+
+// var GameArrayLength = FavoriteGames.length;
+
+// for (var i = 0; i < GameArrayLength; i++) {
+
+//     console.log(FavoriteGames[i]);
+
+//     if (FavoriteGames[i].charAt(0) === "G" || FavoriteGames[i].charAt(0) === "N"); {
+//         alert("starts with the letter G or N");
+//     }
+// }
