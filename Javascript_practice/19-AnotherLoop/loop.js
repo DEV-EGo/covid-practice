@@ -28,3 +28,19 @@ for (var i = 0; i < 8; i++) {
 for (var i = 0; i < 12; i++) {
     console.log("the next numnber is " + i);
 }
+
+for (var i = 0; i < 4; i++) {
+    console.log("TakeOff in ..." + i);
+}
+
+for (var i = 0; i < 10; i++) {
+    console.log(" We have these many customers left : " + i);
+}
+
+for (var i = 0; i < 6; i++) {
+    console.log(" My farm has.." + i);
+}
+
+for (var i = 0; i < 2; i++) {
+    console.log(" mac will crash in .." + i);
+}
