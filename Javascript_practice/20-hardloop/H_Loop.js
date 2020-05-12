@@ -42,3 +42,16 @@ for (var i = 0; i < CarArrayLength; i++) {
 }
 
 console.log("==============================================================");
+
+var FavoriteGames = [" GTA", " Doom", "Need For SPeed", "COD"];
+
+var GameArrayLength = FavoriteGames.length;
+
+for (var i = 0; i < GameArrayLength; i++) {
+
+    console.log(FavoriteGames[i]);
+
+    if (FavoriteGames[i].charAt(0) === "G" || FavoriteGames[i].charAt(0) === "N"); {
+        alert("starts with the letter G or N");
+    }
+}
