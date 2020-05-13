@@ -1,11 +1,18 @@
-var userText = document.getElementById("user-text");
+// var inputText = document.getElementById("user-text");
+
+// document.onkeyup = function (event) {
+//     inputText.textContent = event.key;
+// };
+
+// var newText = document.getElementById("new-text");
+
+// document.onkeyup = function (event) {
+
+//     newText.textContent = event.key;
+
+// };
+var thirdText = document.getElementById("third-text");
 
 document.onkeyup = function (event) {
-    userText.textContent = event.key;
-};
-
-var secondText = document.getElementById("second-text");
-
-document.onkeyup = function (event) {
-    secondText.textContent = event.key;
-};
+    thirdText.textContent = event.key;
+}
