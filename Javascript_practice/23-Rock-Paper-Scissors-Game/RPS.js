@@ -1,13 +1,14 @@
 var GamerChoices = ["r", "p", "s"];
 
-document.onkeyup = function (event) {
+var wins = 0;
+var losses = 0;
+var ties = 0;
 
-    var keyGuess = event.key;
+var DirectionText = document.getElementById("direction-text");
+var UserChoiceText = document.getElementById("Userchoice-text");
+var computerChoiceText = document.getElementById("ComputerChoice-text");
+var WinsText = document.getElementById("Wins=text");
+var LossesText = document.getElementById("Losses-text");
+var TiesText = document.getElementById("Ties-text");
 
-    var UserGuess = GamerChoices[Math.floor(Math.random() * GamerChoices.length)];
 
-    alert(" User Guesse: " + keyGuess);
-
-    alert(" computer Guessed " + UserGuess);
-
-};
