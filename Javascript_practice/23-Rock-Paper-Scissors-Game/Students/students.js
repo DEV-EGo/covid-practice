@@ -16,12 +16,15 @@ for (var i = 0; i < StudentRow1.length; i++) {
     console.log(StudentRow1[i]);
 }
 
+// print out every student in  row 2
 
 console.log("<==================students in Row 2==========================>");
 
 for (var i = 0; i < studentRow2.length; i++) {
     console.log(studentRow2[i]);
-}
+
+}// print out every student in  row 3
+
 
 console.log("<==================students in Row 3==========================>");
 
