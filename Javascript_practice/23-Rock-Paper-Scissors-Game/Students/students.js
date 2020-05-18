@@ -8,7 +8,7 @@ var studentRow3 = ["Yisenia", "Alicia", "Lupe", "Evelyn"];
 
 var EntireClass = [StudentRow1, studentRow2, studentRow3];
 
-// print out every student in  row 1
+// print out every student in  row 1,2,3 
 
 console.log("<=================Students in row 1============================>");
 
@@ -16,14 +16,13 @@ for (var i = 0; i < StudentRow1.length; i++) {
     console.log(StudentRow1[i]);
 }
 
-// print out every student in  row 2
 
 console.log("<==================students in Row 2==========================>");
 
 for (var i = 0; i < studentRow2.length; i++) {
     console.log(studentRow2[i]);
+}
 
-}// print out every student in  row 3
 
 
 console.log("<==================students in Row 3==========================>");
@@ -44,6 +43,7 @@ for (var i = 0; i < studentRow3.length; i++) {
 // how to acess second students name in row3
 
 console.log("===============second student in row 3===============");
+
 console.log("second student in row 3 is : " + studentRow3[2]);
 
 // how do we acess the third student in a row2?
@@ -55,4 +55,5 @@ console.log("third student in row 2 is:" + studentRow2[2]);
 // how do we acess the third student in a row1?
 
 console.log("<===================3rd student in row1===============================>>");
-console.log("third student in row1 is :" + StudentRow1[2]);
+
+console.log("third student in row3 is : " + studentRow3[3]);
