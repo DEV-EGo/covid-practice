@@ -11,8 +11,13 @@
 //     newText.textContent = event.key;
 
 // };
-var thirdText = document.getElementById("third-text");
+// var thirdText = document.getElementById("third-text");
 
+// document.onkeyup = function (event) {
+//     thirdText.textContent = event.key;
+// }
+
+var fourthText = document.getElementById("fourth-text");
 document.onkeyup = function (event) {
-    thirdText.textContent = event.key;
-}
+    fourthText.textContent = event.key;
+};

@@ -7,27 +7,6 @@ var studentRow3 = ["Yisenia", "Alicia", "Lupe", "Evelyn"];
 
 ////////////
 
-var StudentRow1 = document.getElementById("student-row-1");
-var StudentRow1 = document.getElementById("student-row-2");
-var StudentRow1 = document.getElementById("student-row-3");
-
-var Chose = [studentRow2, studentRow3, studentRow1];
-
-document.onkeydup = function (event) {
-    var UserGuess = event.key;
-    var IAGuess = UserGuess[Math.floor(Math.random() * UserGuess.length)];
-
-    if ((UserGuess === "E") || (UserGuess === "L") || (UserGuess === "J")) {
-        if ((UserGuess === "E" && IAGuess == "J") ||
-            (UserGuess === "J" && IAGuess == "L") ||
-            (UserGuess === "L" && IAGuess == "E") {
-
-        } 
-
-        )
-    }
-}
-
 // 
 
 
