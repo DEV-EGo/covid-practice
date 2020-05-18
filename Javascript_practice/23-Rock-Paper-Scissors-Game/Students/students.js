@@ -1,4 +1,5 @@
 // create a row of students
+
 var StudentRow1 = ["Ego", "Eppy", "Noel", "Miguel", "Juju"];
 var studentRow2 = ["Jose", "Jordan", "Kike", "Greg"];
 var studentRow3 = ["Yisenia", "Alicia", "Lupe", "Evelyn"];
@@ -47,3 +48,8 @@ console.log("second student in row 3 is : " + studentRow3[2]);
 console.log("<===================3rd student in row3===============================>>");
 
 console.log("third student in row 2 is:" + studentRow2[2]);
+
+// how do we acess the third student in a row1?
+
+console.log("<===================3rd student in row1===============================>>");
+console.log("third student in row1 is :" + StudentRow1[2]);
