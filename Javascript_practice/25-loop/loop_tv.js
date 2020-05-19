@@ -1,3 +1,5 @@
+// Creating an empty array for our favorite TV shows.
+
 var favMovies = [];
 var Movies;
 
@@ -20,6 +22,14 @@ for (var i = 0; i < favMovies.length; i++) {
     alert(favMovies[i]);// create an alert that will list out each new movie tyoed in by user
 
 }
+// ======================MORE PRACTICE============================================================
+var favCar = [];
+var RaceCar;
+
+for (var i = 1; i < 3; i++) {
+    RaceCar = prompt(" if you can choose " + " a car what would it be : " + i);
+    favCar.push(RaceCar);
+}
 
 // ======================MORE PRACTICE============================================================
 
@@ -34,4 +44,15 @@ for (var i = 2; i < 4; i++) {
 
 for (var i = 0; i < favTVShow.length; i++) {
     alert(favTVShow[i]);
+}
+
+var Jordans = [];
+var sneakerHead;
+
+for (var i = 5; i < 10; i++) {
+    sneakerHead = prompt(`what are you're  ${i} favorite jordans ?`);
+    Jordans.push(sneakerHead);
+}
+for (var i = 0; i < Jordans.length; i++) {
+    alert(sneakerHead[i]);
 }
