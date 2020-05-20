@@ -16,12 +16,10 @@ function ConsoleInfo(arr) {
 }
 
 //executing functions
-
 ConsoleInfo(Music);
 ConsoleInfo(Cars);
 
 // more
-
 var Sneakers = ["Jordans", "PUMA", "Converse", "Adidas"];
 var Jobs = ["Ecom", "RGX", "IA"];
 
@@ -31,5 +29,51 @@ function ShowInfo(list) {
     }
     console.log("============more info=============");
 }
+//executing functions
+
 ShowInfo(Jobs);
 ShowInfo(Sneakers);
+
+// more
+var systems = ["XBOX", "PS4", "NintendoSwitch"];
+var headphones = ["Pods", "BEATS", "BOSS"];
+
+function ShowOnScreen(D_arr) {
+    for (var e = 0; e < D_arr.length; e++) {
+        console.log(D_arr[e]);
+    }
+    console.log("=========");
+}
+
+ShowOnScreen(systems);
+ShowOnScreen(headphones);
+// more
+
+var soda = ["pepsi", "coke", "dr pepper"];
+var juice = ["apple", "orange", "Coconut"];
+
+function Cook(recipe) {
+    for (var f = 0; f < recipe.length; f++) {
+        console.log(recipe[f]);
+    }
+    console.log("===F=O==O==D=");
+}
+
+Cook(soda);
+Cook(juice);
+// more
+
+var music = ["2pac", "Biggie", "wayne", "drake"];
+var HipHop = ["GangstaRap", "R&B", "SouthernRapp", "EastCoast"];
+
+function Rappers(IndependentArtist) {
+    for (var M = 0; M < IndependentArtist.length; M++) {
+        console.log(IndependentArtist[M]);
+    }
+    console.log("=========MusicArtist===============");
+}
+
+
+Rappers(music);
+Rappers(HipHop);
+
