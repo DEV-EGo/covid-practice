@@ -119,3 +119,14 @@ EssentialWorkers(Autotech);
 EssentialWorkers(Contractor);
 EssentialWorkers(SoftwareTech);
 
+console.log(" ======social media====");
+
+var socialMedia = ["ig", "fb"];
+
+
+function help(followers) {
+    for (var ig = 0; ig < followers.length; ig++) {
+        console.log(followers[ig]);
+    }
+}
+help(socialMedia);
