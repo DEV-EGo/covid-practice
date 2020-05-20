@@ -82,3 +82,40 @@ function AllFoods(Comida) {
 
 AllFoods(Whitefood);
 AllFoods(Mexicanfood);
+console.log("===========^^^^============");
+
+var SoftwareTech = ["Code", "photoshop", "IT"];
+var Autotech = ["collision", "GeneralMech", "Welder"];
+var Contractor = ["landscape", "Carpet", "concrete"];
+
+console.log(" ========softwaretech====");
+
+for (var s = 0; s < SoftwareTech.length; s++) {
+    console.log(SoftwareTech[s]);
+}
+console.log(" ========autotech====");
+
+for (var A = 0; A < Autotech.length; A++) {
+    console.log(Autotech[A]);
+}
+
+console.log(" ======contractor====");
+
+for (var C = 0; C < Contractor.length; C++) {
+    console.log(Contractor[C]);
+}
+
+console.log(" ======Calling all techs in a function====");
+
+function EssentialWorkers(Jobs) {
+    for (var J = 0; J < Jobs.length; J++) {
+        console.log(Jobs[J]);
+    }
+    console.log(" ======Calling all techs in a function====");
+
+}
+
+EssentialWorkers(Autotech);
+EssentialWorkers(Contractor);
+EssentialWorkers(SoftwareTech);
+
