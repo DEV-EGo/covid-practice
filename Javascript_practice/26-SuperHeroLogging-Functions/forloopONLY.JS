@@ -28,14 +28,7 @@ FastnFurious(Exotic);
 FastnFurious(Tuner);
 FastnFurious(Muscle);
 
-
-var food = ["MacNCheese", "Steak", "Shrimp", "Burgers", "Fries"];
-
-for (var C = 0; C < food.length; C++) {
-    console.log(food[C]);
-}
-
-console.log("===========food only============");
+/////////////
 
 var dog = ["tyson", "Duke", "Yoko"];
 
@@ -63,3 +56,29 @@ function pets(listOfAnimals) {
 
 pets(dog);
 pets(otracosa);
+
+// //////////////////////
+
+var Whitefood = ["MacNCheese", "Steak", "Shrimp", "Burgers", "Fries"];
+var Mexicanfood = ["tacos", "rice", "beans", "salsa verde", "enchiladas"];
+
+for (var cracka = 0; cracka < Whitefood.length; cracka++) {
+    console.log(Whitefood[cracka]);
+}
+
+console.log("===========^^white food only^^============");
+
+for (var beaner = 0; beaner < Mexicanfood.length; beaner++) {
+    console.log(Mexicanfood[beaner]);
+}
+console.log("===========^^Mexican food only^^============");
+
+function AllFoods(Comida) {
+    for (var y = 0; y < Comida.length; y++) {
+        console.log(Comida[y]);
+    }
+    console.log("=========all food in both the arrays==============");
+}
+
+AllFoods(Whitefood);
+AllFoods(Mexicanfood);
