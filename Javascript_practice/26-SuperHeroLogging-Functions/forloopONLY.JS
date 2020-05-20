@@ -5,12 +5,61 @@ var Exotic = ["Pagani", "McClaren", "GTR", "Ferrari", "Lamborghini"];
 for (var i = 0; i < Tuner.length; i++) {
     console.log(Tuner[i]);
 }
-console.log("===========extend============");
+console.log("===========Tuner============");
 
 for (var M = 0; M < Muscle.length; M++) {
     console.log(Muscle[M]);
 }
-console.log("===========more============");
+console.log("===========Muscle============");
+
 for (var E = 0; E < Exotic.length; E++) {
     console.log(Exotic[E]);
 }
+
+console.log("===========Exotic============");
+
+function FastnFurious(whips) {
+    for (var z = 0; z < whips.length; z++) {
+        console.log(whips[z]);
+    }
+    console.log("=========fastNfurious===========");
+}
+FastnFurious(Exotic);
+FastnFurious(Tuner);
+FastnFurious(Muscle);
+
+
+var food = ["MacNCheese", "Steak", "Shrimp", "Burgers", "Fries"];
+
+for (var C = 0; C < food.length; C++) {
+    console.log(food[C]);
+}
+
+console.log("===========food only============");
+
+var dog = ["tyson", "Duke", "Yoko"];
+
+for (var D = 0; D < dog.length; D++) {
+    console.log(dog[D]);
+}
+console.log("=========== dogs animals ============");
+
+var otracosa = ["hamster", "bunny", "goldfish"];
+
+for (var x = 0; x < otracosa.length; x++) {
+    console.log(otracosa[x]);
+}
+
+console.log("===========other animals============");
+
+
+function pets(listOfAnimals) {
+    for (var f = 0; f < listOfAnimals.length; f++) {
+        console.log(listOfAnimals[f]);
+    }
+    console.log("===========calling function for animals============");
+
+}
+
+pets(dog);
+pets(otracosa);
