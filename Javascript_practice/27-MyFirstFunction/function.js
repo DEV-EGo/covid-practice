@@ -50,3 +50,33 @@ function vowelChecker(x) {
         console.log(" the first letter was not a vowel") // if not this will appear
     }
 }
+
+// Function execution - each line of code below will make a "call" that "runs" the function
+//with out the "call" the function will not be executed
+
+console.log("------add function being called------");
+
+add(5, 3, 4);
+
+console.log("------calling addReturn below-------");
+
+var SneakerTotal = addReturn(220, 5, 10);
+{ /// when using the "return" call we need to create a variable that calls the return
+    console.log(SneakerTotal);
+}
+
+console.log("------add multiply being called------");
+
+multiply(20, 33, 40);
+
+console.log("------calling multiplyReturn below-------");
+
+var usingReturnMultiply = multiplyReturn(20, 33, 40);
+{
+    console.log(usingReturnMultiply);
+}
+
+console.log("------calling isString function checking for vowels below-------");
+
+isString("habibi", "monkey", "frs"); // if they have a vowel the IF statement will pop
+isString(3, "hello", "mars"); //if they have vowels the else statement will pop
