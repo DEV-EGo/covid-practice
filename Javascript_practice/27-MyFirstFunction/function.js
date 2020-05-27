@@ -18,7 +18,7 @@ function multiplyReturn(x, y, z) {
     return x * y * z
 }
 
-// Returning a String
+// Returning a String that takes in 3 arguments
 
 function isString(x, y, z) {
     if (
@@ -30,5 +30,23 @@ function isString(x, y, z) {
     }
     else {
         console.log(" na famm");
+    }
+}
+
+// returning a vowel checker that takes in one single argument
+
+function vowelChecker(x) {
+
+    var firstChar = x.toLowerCase().charAt(0); ///will grab the first leter in the character
+
+    if (firstChar === "a" || firstChar === "e" ||
+        firstChar === "i" || firstChar === "o" ||
+        firstChar === "u") //checking to see if the first letter is a vowel
+    {
+        console.log("WOWZERS the first letter is a vowel"); // if so this message will show in the console
+
+    }
+    else {
+        console.log(" the first letter was not a vowel") // if not this will appear
     }
 }
