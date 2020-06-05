@@ -122,11 +122,53 @@ EssentialWorkers(SoftwareTech);
 console.log(" ======social media====");
 
 var socialMedia = ["ig", "fb"];
-
+var internet = ["mac", "windows"];
 
 function help(followers) {
     for (var ig = 0; ig < followers.length; ig++) {
         console.log(followers[ig]);
     }
+    console.log("<==================================>");
 }
 help(socialMedia);
+help(internet);
+
+console.log("<================last practice run==================>");
+
+var cities = ["newyork",
+    "California",
+    "Atlanta",
+    "Charlotte",
+    "Los Angeles",
+    "Chicago"
+];
+
+var Countries = [
+    "USA",
+    "Mexico",
+    "UK",
+    "Japan",
+    "NorthKorea",
+    "France"
+];
+console.log("<===========calling a cities FOR LOOP==================>");
+
+for (var t = 0; t < cities.length; t++) {
+    console.log(cities[t]);
+}
+console.log("<===========calling a countries FOR LOOP==================>");
+
+for (var q = 0; q < Countries.length; q++) {
+    console.log(Countries[q]);
+}
+console.log("<===========calling a function for all the countries and cities==================>");
+
+function Earth(World) {
+    for (var w = 0; w < World.length; w++) {
+        console.log(World[w]);
+    }
+    console.log("============== calling the world======================");
+}
+
+Earth(Countries);
+Earth(cities);

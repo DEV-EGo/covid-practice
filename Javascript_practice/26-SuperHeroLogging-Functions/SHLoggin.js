@@ -77,3 +77,15 @@ function Rappers(IndependentArtist) {
 Rappers(music);
 Rappers(HipHop);
 
+// moreeeeee
+var racism = ["Trump", "Republicans", "KKK"];
+var freedom = ["Anonymous", "NAACP", "Protest"];
+
+function Justice(Fight) {
+    for (var K = 0; K < Fight.length; K++) {
+        console.log(Fight[0]);
+    }
+}
+
+Fight(racism);
+Fight(freedom);
