@@ -78,14 +78,16 @@ Rappers(music);
 Rappers(HipHop);
 
 // moreeeeee
-var racism = ["Trump", "Republicans", "KKK"];
-var freedom = ["Anonymous", "NAACP", "Protest"];
+var Trucks = ["f-150", "Raptor", "Tahoe", "silverado", "Tacoma"];
+var RaceCar = ["F-RS", "370z", "Skyline", "Ferrari"];
 
-function Justice(Fight) {
-    for (var K = 0; K < Fight.length; K++) {
-        console.log(Fight[0]);
+function GoFast(PickThis) {
+    for (var i = 0; i < PickThis.length; i++) {
+        console.log(PickThis[i]);
     }
+    console.log("=======pick a car========")
 }
+GoFast(Trucks);
+GoFast(RaceCar);
 
-Fight(racism);
-Fight(freedom);
+console.log("=========More Practice===============");
