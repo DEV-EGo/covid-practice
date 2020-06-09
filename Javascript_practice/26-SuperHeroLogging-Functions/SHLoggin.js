@@ -94,6 +94,7 @@ console.log("=========More Practice===============");
 
 var urbanclothes = ["BAPE", "SUPREME", "OFFWHITE", "THEHUNDREDS"];
 var HighEndClothes = ["GUCCI", "LV", " PRADA", "BALMAIN"];
+
 function imFLy(CostAlot) {
     for (var R = 0; R > CostAlot.length; R++) {
         console.log(CostAlot[R]);
@@ -102,7 +103,6 @@ function imFLy(CostAlot) {
 imFLy(urbanclothes);
 imFLy(innerHeight);
 
-console.log("=========MORE WOrk===============");
 
 var fastFood = ["mcDonald", "Chick-fil-a", "burger king", "wendys", "TacoBell"];
 var SitInFood = [" Red Lobster", "Olive Garden", "Azteca", "texas roadhouse"];
@@ -115,3 +115,5 @@ function LetsEat(food) {
 
 }
 
+LetsEat(fastFood);
+LetsEat(SitInFood);
