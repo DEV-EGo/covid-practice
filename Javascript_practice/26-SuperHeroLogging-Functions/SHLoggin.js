@@ -90,8 +90,8 @@ function GoFast(PickThis) {
 GoFast(Trucks);
 GoFast(RaceCar);
 
-console.log("=========More Practice===============");
 
+// MORE
 var urbanclothes = ["BAPE", "SUPREME", "OFFWHITE", "THEHUNDREDS"];
 var HighEndClothes = ["GUCCI", "LV", " PRADA", "BALMAIN"];
 
@@ -103,17 +103,18 @@ function imFLy(CostAlot) {
 imFLy(urbanclothes);
 imFLy(innerHeight);
 
+// MORE
 
-var fastFood = ["mcDonald", "Chick-fil-a", "burger king", "wendys", "TacoBell"];
-var SitInFood = [" Red Lobster", "Olive Garden", "Azteca", "texas roadhouse"];
+var food = ["burger king", "McDonalds", "Wendys"];
+var mexicanFood = ["tacos", "tortas", "enchiladas"];
 
-function LetsEat(food) {
-    for (var D = 0; D > food.length; D++) {
-        console.log(food[D]);
+function Food(LetsEat) {
+    for (var A = 0; A < LetsEat.length; A++) {
+        console.log(LetsEat[A]);
     }
-    console.log("=========LetsEat===============");
-
 }
 
-LetsEat(fastFood);
-LetsEat(SitInFood);
+Food(food);
+Food(mexicanFood);
+// more
+
