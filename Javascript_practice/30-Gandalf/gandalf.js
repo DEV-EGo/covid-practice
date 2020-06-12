@@ -55,25 +55,58 @@
 
 // more 
 
-var Batman = {
+// var Batman = {
 
-    "real name": "Bruce Wayne",
-    "Age": "27",
-    "Job": "Vigilante",
-    "race": "Human",
-    "Aliases": [
-        "The Dark Knight",
-        "Bats",
-        "ManBat"
+//     "real name": "Bruce Wayne",
+//     "Age": "27",
+//     "Job": "Vigilante",
+//     "race": "Human",
+//     "destination": " batcave",
+//     "Aliases": [
+//         "The Dark Knight",
+//         "Bats",
+//         "ManBat"
+//     ]
+// };
+
+// alert(" i am " + Batman["real name"]);
+
+// if (Batman.Job) {
+//     var job = "Job";
+//     var CrimeStoper = Batman["Job"];
+
+//     alert(" i am known for being a " + CrimeStoper);
+
+// }
+
+// alert(" i have more than one name " + Batman.Aliases.length + " Aliases");
+
+// alert(" Current destination" + Batman["destination"]);
+
+// more practice
+
+var superman = {
+    "real name": "Clark Kent",
+    "Job": " journalist",
+    "Home": " Krypton",
+    "Job": "Super Hero",
+    "NickName": [
+        " Boy Wonder",
+        " American Hero",
+        " Big Man"
     ]
 };
 
-alert(" i am " + Batman["real name"]);
+alert(" i am " + superman["real name"]);
 
-if (Batman.Job) {
-    var job = "Job";
-    var CrimeStoper = Batman["Job"];
+if (superman.Job) {
+    var WhatIsHisJob = "Job";
+    var SaveEarth = superman["Job"];
 
-    alert(" i am known for being a " + CrimeStoper);
+    alert(" i'm a " + SaveEarth);
 
 }
+
+alert(" i have more than one name " + superman.NickName);
+
+alert(" i am going to" + superman["Home"]);
