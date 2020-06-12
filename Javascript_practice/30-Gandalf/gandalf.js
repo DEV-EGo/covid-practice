@@ -85,28 +85,58 @@
 
 // more practice
 
-var superman = {
-    "real name": "Clark Kent",
-    "Job": " journalist",
-    "Home": " Krypton",
-    "Job": "Super Hero",
-    "NickName": [
-        " Boy Wonder",
-        " American Hero",
-        " Big Man"
-    ]
-};
+// var superman = {
+//     "real name": "Clark Kent",
+//     "Job": " journalist",
+//     "Home": " Krypton",
+//     "Job": "Super Hero",
+//     "NickName": [
+//         " Boy Wonder",
+//         " American Hero",
+//         " Big Man"
+//     ]
+// };
 
-alert(" i am " + superman["real name"]);
+// alert(" i am " + superman["real name"]);
 
-if (superman.Job) {
-    var WhatIsHisJob = "Job";
-    var SaveEarth = superman["Job"];
+// if (superman.Job) {
+//     var WhatIsHisJob = "Job";
+//     var SaveEarth = superman["Job"];
 
-    alert(" i'm a " + SaveEarth);
+//     alert(" i'm a " + SaveEarth);
 
+// }
+
+// alert(" i have more than one name " + superman.NickName);
+
+// alert(" i am going to" + superman["Home"]);
+
+// more
+
+var GOAT = {
+    "name": " Michael Jordan",
+
+    "Team": [
+        " Chicago Bulls",
+        " USA", " Wizards",
+        " BlackSox"
+    ],
+
+    "College": " Carolina",
+    "Home": " Chicago",
+    "Money": [" BasketBall", " Jordan Sneakers"]
 }
 
-alert(" i have more than one name " + superman.NickName);
+alert(" im considered the best NBA Player of all time" + GOAT["name"]);
 
-alert(" i am going to" + superman["Home"]);
+if (GOAT.Money) {
+    var cashflow = "Money";
+    var IsRich = GOAT["Money"];
+    alert(" im rich because" + IsRich);
+}
+
+alert(" i played for these dynasties" + GOAT["Team"]);
+
+alert(" i was drafted when i played in " + GOAT["College"]);
+
+alert(" i retired in the windy city of " + GOAT["Home"]);
