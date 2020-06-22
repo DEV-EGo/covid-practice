@@ -37,3 +37,15 @@ var Car = {
         alert(" Ready! ..... Set!... GO!");
     }
 };
+
+// functions
+// log all of the car's current stats
+
+function StatsReWrite() {
+    console.log("Make: " + Car.Make);
+    console.log("Model: " + Car.Model);
+    console.log("Miles:" + Car.Miles);
+    console.log("color: " + Car.Color);
+    console.log(" is driving: " + Car.IsDriving);
+    console.log("================================");
+}
