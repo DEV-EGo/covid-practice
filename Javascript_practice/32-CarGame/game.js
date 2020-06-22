@@ -3,7 +3,7 @@ var Car = {
     Model: "Skyline",
     Miles: 100,
     Color: "silver",
-    IsDriving: true
+    IsDriving: true,
 
     GoToWork: function () {
 
