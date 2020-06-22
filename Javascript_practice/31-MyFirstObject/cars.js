@@ -6,8 +6,11 @@ var Vehicle = {
     IsDriveable: true,
 
     DriveToWork: function () {
+
         alert(" old mileage:" + this.mileage);
+
         this.mileage = this.mileage + 20;
+
         alert(" New Miles" + this.mileage);
     },
 
@@ -29,3 +32,43 @@ var Vehicle = {
         alert(" HONK ! HONK!");
     }
 };
+
+// console log the functions
+
+// log the car's make
+console.log(Vehicle.make);
+
+// log the car model
+console.log(Vehicle.model);
+
+// log the mileage
+console.log(Vehicle.mileage);
+
+// log the drive to work method
+Vehicle.DriveToWork();
+
+// log drive around the world
+Vehicle.DriveAroundTheWorld();
+
+//log the tune up method
+Vehicle.GetAtuneUp();
+
+
+// how to run the get tune up method by typing "H", "T"
+
+document, onkeyup = function (event) {
+    var LetterChosen = event.key.toLowerCase();
+
+    if (LetterChosen === "h") {
+        Vehicle.Honk();
+    }
+    else if (LetterChosen === "w") {
+        Vehicle.DriveAroundTheWorld();
+    }
+}
+
+function logCarDetails() {
+    console.log("make" + Vehicle.make);
+    console.log("make" + Vehicle.mileage);
+    console.log("make" + Vehicle.model);
+}
