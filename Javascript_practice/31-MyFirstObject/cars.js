@@ -30,6 +30,10 @@ var Vehicle = {
 
     Honk: function () {
         alert(" HONK ! HONK!");
+    },
+
+    Race: function () {
+        alert(" READY SET GO!");
     }
 };
 
@@ -63,7 +67,7 @@ document, onkeyup = function (event) {
         Vehicle.Honk();
     }
     else if (LetterChosen === "w") {
-        Vehicle.DriveAroundTheWorld();
+        Vehicle.Race();
     }
 }
 
