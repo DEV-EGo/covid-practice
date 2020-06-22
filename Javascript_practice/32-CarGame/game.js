@@ -49,3 +49,39 @@ function StatsReWrite() {
     console.log(" is driving: " + Car.IsDriving);
     console.log("================================");
 }
+
+// main process 
+// capturing the keyboard input depending on the letter that was hit
+
+document.onkeyup = function (event) {
+
+    // captures the keys that are being hit
+    var LettersBeingHit = event.key.toLowerCase();
+
+    // if they hit the letter "h", this function/method code will run
+
+    if (LettersBeingHit === "h") {
+        Car.Move();
+        StatsReWrite();
+    }
+
+    // if they hit the letter "d", this function/method code will run
+
+    if (LettersBeingHit === "d") {
+        Car.GoToWork();
+        StatsReWrite();
+    }
+
+    // if they hit the letter "w", this function/method code will run
+
+    if (LettersBeingHit === "w") {
+        Car.DriveAroundTheWorld();
+        StatsReWrite();
+    }
+
+    // if they hit the letter "t", this function/method code will run
+    if (LettersBeingHit === "t") {
+        Car.TuneUp();
+        StatsReWrite();
+    }
+}
