@@ -44,14 +44,42 @@ var Tuner = {
 
     honk: function () {
         alert("honk!");
+    },
+    TakeOff: function () {
+        alert("TAKE OFF!");
     }
 };
 
+// log the vehicle in the console
 console.log(Tuner.Vehicle);
+
+// log the color into the console
 console.log(Tuner.color);
+
+// log the Model 
 console.log(Tuner.Model);
+
+// log the miles
 console.log(Tuner.Miles);
 
+// log the Race Method
 Tuner.Race();
+
+// log the Drive around the block method
 Tuner.DriveAroundTheBlock();
+
+// log the tuneup method
 Tuner.Tuneup();
+
+// how to make the onkey functions work "H" "T"
+
+document.onkeyup = function (event) {
+    var LettersToHit = event.key.toLowerCase();
+
+    if (LettersToHit === "H") {
+        Tuner.honk();
+    }
+    else if (LettersToHit === "D") {
+        Vehicle.TakeOff();
+    }
+}
