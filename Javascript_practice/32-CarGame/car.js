@@ -27,5 +27,22 @@ var Vehicle = {
     TuneUpTheCar: function () {
         alert(" Dump the clutch and let it roll! ");
         this.IsDriving = true;
+    },
+
+    honk: function () {
+        alert(" skirrrrrt skiiirrrrrt!");
     }
+};
+
+
+// log all of the cars currrent stats in the console
+
+function DoOverStats() {
+    console.log("Make" + Vehicle.Make);
+    console.log("Model" + Vehicle.Mode);
+    console.log("Color" + Vehicle.Color);
+    console.log("Miles" + Vehicle.Miles);
+    console.log("is driveable" + Vehicle.IsDriving);
+    console.log(" ============================ ");
+
 }
