@@ -39,6 +39,31 @@ Function clearUpStats() {
     console.log("Color" + NewCar.Color);
     console.log("Miles" + NewCar.Miles);
     console.log("Ready to race" + NewCar.IsRaceAble);
+
     console.log("===============lets ride =================");
 
 }
+
+document.onkeyup = function (event) {
+    var UserClicked = event.key.toLowerCase();
+
+    if (UserClicked === "r") {
+        NewCar.Turbo();
+        clearUpStats();
+    }
+
+    if (UserClicked === "r") {
+        NewCar.StartEngine();
+        clearUpStats();
+    }
+
+    if (UserClicked === "l") {
+        NewCar.LapAroundTheTrack();
+        clearUpStats();
+    }
+
+    if (UserClicked === "p") {
+        NewCar.PitStop();
+        clearUpStats();
+    }
+};
