@@ -6,24 +6,24 @@ var NewCar = {
     IsRaceAble: true,
 
     StartEngine: function () {
-        alert(" Start Your Engine" + this.Miles);
+        alert(" Start Your Engine " + this.Miles);
         this.Miles = this.Miles;
 
         alert(" You ran this many miles " + this.Miles);
     },
 
     LapAroundTheTrack: function () {
-        alert(" you ran these many miles around the track" + this.Miles);
+        alert(" you ran these many miles around the track " + this.Miles);
 
         this.Miles = this.Miles + 3000;
 
-        alert(" Engine is hot you ran" + this.Miles + " Miles Per hour");
+        alert(" Engine is hot you ran " + this.Miles + " Miles Per hour ");
 
-        alert(" Pull into the Pit Stop your engine is running hot");
+        alert(" Pull into the Pit Stop before the engine blows ");
     },
 
     PitStop: function () {
-        alert(" You're good to go Win this race");
+        alert(" You're good to go, Go Win this race! ");
         this.IsRaceAble = true;
     },
 
@@ -32,27 +32,23 @@ var NewCar = {
     }
 };
 
-Function clearUpStats() {
-
+function clearUpStats() {
     console.log("Make" + NewCar.Make);
     console.log("Model" + NewCar.Model);
     console.log("Color" + NewCar.Color);
     console.log("Miles" + NewCar.Miles);
-    console.log("Ready to race" + NewCar.IsRaceAble);
-
-    console.log("===============lets ride =================");
-
+    console.log("Race" + NewCar.IsRaceAble);
 }
 
 document.onkeyup = function (event) {
     var UserClicked = event.key.toLowerCase();
 
-    if (UserClicked === "r") {
+    if (UserClicked === "t") {
         NewCar.Turbo();
         clearUpStats();
     }
 
-    if (UserClicked === "r") {
+    if (UserClicked === "s") {
         NewCar.StartEngine();
         clearUpStats();
     }
