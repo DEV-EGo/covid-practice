@@ -8,3 +8,8 @@ body {
 nav{
     background-color: #7cb7ba;
 }
+
+.carouselExampleSlidesOnly{
+    size: 12rem;
+
+}
