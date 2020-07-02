@@ -1,6 +1,15 @@
 body {
     background: black;
 }
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+}
+
+p{
+
+}
+
 .jumbotron.jumbotron-fluid{
     background-color: #d6f2ef;
 }
