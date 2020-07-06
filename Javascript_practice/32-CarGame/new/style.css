@@ -1,4 +1,4 @@
-body {
+body,.no-js {
     background: black;
 }
 
@@ -6,17 +6,12 @@ h1 {
     font-family: 'Krona One', sans-serif;
 }
 
-p{
 
+
+.jumbotron.jumbotron-fluid, nav{
+    background-color: #645878bf;
 }
 
-.jumbotron.jumbotron-fluid{
-    background-color: #d6f2ef;
-}
-
-nav{
-    background-color: #7cb7ba;
-}
 
 .carouselExampleSlidesOnly{
     size: 12rem;
