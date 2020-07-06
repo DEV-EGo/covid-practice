@@ -2,7 +2,7 @@ body,.no-js {
     background: black;
 }
 
-h1 {
+h1, .welcome {
     font-family: 'Krona One', sans-serif;
 }
 
