@@ -118,3 +118,17 @@ Food(food);
 Food(mexicanFood);
 // more
 
+console.log("=========work===============");
+
+var trabajo = ["RGX", "INFINITE", "E-COM", "SNEAKERS"];
+var quitJob = ["RimRepair"];
+
+function labor(JobsTOwork) {
+    for (var T = 0; T < JobsTOwork.length; T++) {
+        console.log(JobsTOwork[T]);
+    }
+    console.log("============jobs practice===========");
+}
+
+labor(trabajo);
+labor(quitJob);

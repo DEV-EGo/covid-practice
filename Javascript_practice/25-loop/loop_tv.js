@@ -59,3 +59,11 @@
 // for (var N = 0; N < Jordans.length; N++) {
 //     alert(sneakerHead[N]);
 // }
+
+var games = [];
+var system;
+
+for (var i = 3; i < 5; i++) {
+    system = (" what is your favorite system" + i);
+    games.push(system);
+}

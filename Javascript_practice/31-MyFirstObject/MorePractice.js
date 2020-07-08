@@ -76,10 +76,10 @@ Tuner.Tuneup();
 document.onkeyup = function (event) {
     var LettersToHit = event.key.toLowerCase();
 
-    if (LettersToHit === "H") {
+    if (LettersToHit === "h") {
         Tuner.honk();
     }
-    else if (LettersToHit === "D") {
-        Vehicle.TakeOff();
+    else if (LettersToHit === "d") {
+        Tuner.TakeOff();
     }
 }

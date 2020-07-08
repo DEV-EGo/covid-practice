@@ -80,3 +80,6 @@ console.log("------calling isString function checking for vowels below-------");
 
 isString("habibi", "monkey", "frs"); // if they have a vowel the IF statement will pop
 isString(3, "hello", "mars"); //if they have vowels the else statement will pop
+
+vowelChecker("plane"); //IF ELSE statement will pop up if vowel is first letter in string
+vowelChecker("apple");// IF ELSE statement will pop up if vowel is first letter in the string
