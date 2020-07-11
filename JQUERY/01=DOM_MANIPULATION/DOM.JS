@@ -9,11 +9,15 @@ var fourthTarget = document.getElementById("4th-trial");
 
 var FifthTarget = document.getElementById("5th-trial");
 
+var sixthTarget = document.getElementById("6th-trial");
+
+var sevenTarget = document.getElementById("7th-trial");
+
 // ========use the JS method ".textcontent" to change the content on screen and out put "hello world"
 
-targetID.textContent = " hello world";
+// targetID.textContent = " hello world";
 
-newTarget.textContent = " new target who this";
+// newTarget.textContent = " new target who this";
 
 // thirdTarget.textContent = "hey";
 
@@ -21,9 +25,9 @@ newTarget.textContent = " new target who this";
 
 // =======If we try to add to the div using the same .textContent method... it just replaces the old content.
 
-targetID.textContent = " replacing old content first go";
+// targetID.textContent = " replacing old content first go";
 
-newTarget.textContent = " new saying who this";
+// newTarget.textContent = " new saying who this";
 
 // thirdTarget.textContent = " new new new";
 
@@ -35,18 +39,24 @@ var newElementDiv = document.createElement("div");
 
 var elementCuatro = document.createElement("cuatro-div");
 
-var FifthElement = document.createTextNode("cinco");
+var FifthElement = document.createElement("cinco");
+
+var sixElement = document.createElement("seis");
+
+var SeventhElement = document.createElement("LUCKY7");
 
 // =========giving the new DIV created text "a pleasure to meet you"
 
 newElementDiv.textContent = " new element who this";
 elementCuatro.textContent = " practice boy";
 FifthElement.textContent = " C I N C O";
-
+sixElement.textContent = "S I X";
+SeventhElement.textContent = " S I E T E";
 // =========using the "appenchild" method to combine the 2 new divs together
 
 thirdTarget.appendChild(newElementDiv);
-elementCuatro.appendChild(fourthTarget);
+fourthTarget.appendChild(elementCuatro);
 FifthTarget.appendChild(FifthElement);
-
+sixthTarget.appendChild(sixElement);
+sevenTarget.appendChild(SeventhElement);
 
