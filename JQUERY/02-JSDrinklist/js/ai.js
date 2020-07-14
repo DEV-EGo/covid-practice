@@ -1,20 +1,60 @@
-var drinkList = [
-    "coffee",
-    "milk",
-    "apple juice",
-    "soda"
+// var drinkList = [
+//     "coffee",
+//     "milk",
+//     "apple juice",
+//     "soda"
+// ];
+
+// var DrinkDiv = document.getElementById("Drinks-list");
+
+// for (var i = 0; i < drinkList.length; i++) {
+
+//     var newDrinkPara = document.createElement("p");
+
+//     newDrinkPara.textContent = drinkList[i];
+
+//     DrinkDiv.appendChild(newDrinkPara);
+// }
+("====================");
+
+// var VideoGames = [
+//     "madden",
+//     "fifa",
+//     "gta",
+//     "call of duty"
+// ];
+
+// var gameDiv = document.getElementById("Games");
+
+// for (var i = 0; i < VideoGames.length; i++) {
+
+//     var newGameParagraph = document.createElement("p");
+
+//     newGameParagraph.textContent = VideoGames[i];
+
+//     gameDiv.appendChild(newGameParagraph);
+// }
+
+("====================");
+
+var carTeam = [
+    "GTR",
+    "FERRARI",
+    "LAMBO",
+    "McClaren",
+    "Pagani"
 ];
 
-var DrinkDiv = document.getElementById("Drinks-list");
+var Vehiclelist = document.getElementById("FastLife");
 
-for (var i = 0; i < drinkList.length; i++) {
-    var newDrinkPara = document.createElement("p");
+for (var i = 0; i < carTeam.length; i++) {
 
-    newDrinkPara.textContent = drinkList[i];
+    var carListP = document.createElement("p");
 
-    DrinkDiv.appendChild(newDrinkPara);
+    carListP.textContent = carTeam[i];
+
+    Vehiclelist.appendChild(carListP);
 }
-
 
 
 // PRACTICE CODE //////
