@@ -1,3 +1,25 @@
+var drinkList = [
+    "coffee",
+    "milk",
+    "apple juice",
+    "soda"
+];
+
+var DrinkDiv = document.getElementById("Drinks-list");
+
+for (var i = 0; i < drinkList.length; i++) {
+    var newDrinkPara = document.createElement("p");
+
+    newDrinkPara.textContent = drinkList[i];
+
+    DrinkDiv.appendChild(newDrinkPara);
+}
+
+
+
+// PRACTICE CODE //////
+
+
 // $("#testing").html("<h1> testing</h1>");
 
 // var $div = $("<testing>");
@@ -46,14 +68,14 @@
 
 // $("#godzilla").append($kaiju);
 
-("====================");
+// ("====================");
 
-$("#popUp").html("<h1> this is a pop up </h1>");
+// $("#popUp").html("<h1> this is a pop up </h1>");
 
-var $Notification = $("<popUp>");
+// var $Notification = $("<popUp>");
 
-$Notification.html(" you got mail");
+// $Notification.html(" you got mail");
 
-$("#popUp").append($Notification);
+// $("#popUp").append($Notification);
 
-("====================");
+// ("====================");
