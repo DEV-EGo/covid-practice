@@ -28,10 +28,32 @@
 
 ("====================");
 
-$("#keeptrying").html("<h1> try harder </h1>");
+// $("#keeptrying").html("<h1> try harder </h1>");
 
-var $trytrytry = $("<keeptrying>");
+// var $trytrytry = $("<keeptrying>");
 
-$trytrytry.html("try hard");
+// $trytrytry.html("try hard");
 
-$("#keeptrying").append($trytrytry);
+// $("#keeptrying").append($trytrytry);
+
+("====================");
+
+// $("#godzilla").html("<h1> rawwwwr </h1>");
+
+// var $kaiju = $("<godzilla>");
+
+// $kaiju.html("kind of monsters");
+
+// $("#godzilla").append($kaiju);
+
+("====================");
+
+$("#popUp").html("<h1> this is a pop up </h1>");
+
+var $Notification = $("<popUp>");
+
+$Notification.html(" you got mail");
+
+$("#popUp").append($Notification);
+
+("====================");
