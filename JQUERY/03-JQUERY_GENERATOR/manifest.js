@@ -1,7 +1,18 @@
-$("#practice").html("<h1>hello</h1>");
+$("#emptydiv").html("<h1>hey</h1>");
 
-var $NewDiv = $("practice");
+var newDiv = $("<div>");
+newDiv.text("hello friend");
 
-$NewDiv.html("yeah");
+$("#emptydiv").append(newDiv);
 
-$("#practice").append("this works");
+('-------------------------------------------------------------------------');
+
+$("#more").html("<h1>more practice</h1>");
+
+var moreMore = $("<newdiv>");
+moreMore.text("hey");
+
+$("#more").append(moreMore);
+
+('-------------------------------------------------------------------------');
+5
