@@ -17,6 +17,24 @@ for (var i = 0; i < Pets.length; i++) {
 }
 ("====================");
 
+var socialMedia = [
+    "The Facebook",
+    "Instagram",
+    "Twitter",
+    "GITHUB"
+];
+
+var Addiction = document.getElementById("TheInternet");
+
+for (var i = 0; i < socialMedia.length; i++) {
+
+    var online = document.createElement("p");
+
+    online.textContent = socialMedia[i];
+
+    Addiction.appendChild(online);
+}
+
 // var drinkList = [
 //     "coffee",
 //     "milk",
