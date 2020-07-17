@@ -1,3 +1,40 @@
+var Pets = [
+    "dog",
+    "fish",
+    "cat",
+    "lizard"
+];
+
+var petzone = document.getElementById("Sidekicks");
+
+for (var i = 0; i < Pets.length; i++) {
+
+    var animalList = document.createElement("p");
+
+    animalList.textContent = Pets[i];
+
+    petzone.appendChild(animalList);
+}
+("====================");
+
+var socialMedia = [
+    "The Facebook",
+    "Instagram",
+    "Twitter",
+    "GITHUB"
+];
+
+var Addiction = document.getElementById("TheInternet");
+
+for (var i = 0; i < socialMedia.length; i++) {
+
+    var online = document.createElement("p");
+
+    online.textContent = socialMedia[i];
+
+    Addiction.appendChild(online);
+}
+
 // var drinkList = [
 //     "coffee",
 //     "milk",
@@ -37,24 +74,24 @@
 
 ("====================");
 
-var carTeam = [
-    "GTR",
-    "FERRARI",
-    "LAMBO",
-    "McClaren",
-    "Pagani"
-];
+// var carTeam = [
+//     "GTR",
+//     "FERRARI",
+//     "LAMBO",
+//     "McClaren",
+//     "Pagani"
+// ];
 
-var Vehiclelist = document.getElementById("FastLife");
+// var Vehiclelist = document.getElementById("FastLife");
 
-for (var i = 0; i < carTeam.length; i++) {
+// for (var i = 0; i < carTeam.length; i++) {
 
-    var carListP = document.createElement("p");
+//     var carListP = document.createElement("p");
 
-    carListP.textContent = carTeam[i];
+//     carListP.textContent = carTeam[i];
 
-    Vehiclelist.appendChild(carListP);
-}
+//     Vehiclelist.appendChild(carListP);
+// }
 
 
 // PRACTICE CODE //////

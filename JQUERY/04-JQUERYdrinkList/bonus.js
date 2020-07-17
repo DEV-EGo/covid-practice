@@ -58,3 +58,4 @@ for (var i = 0; i < food.length; i++) {
     var comida = ("<div>" + food[i] + "</div>");
     DigIn.append(comida);
 }
+
