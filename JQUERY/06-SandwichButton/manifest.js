@@ -5,6 +5,12 @@ $(document).ready(function () {
     var GrilledCheese = 0;
     var RoastBeef = 0;
 
+    // ====================================
+
+    var Ferrari = 0;
+    var GTR = 0;
+    var Supra = 0;
+
     $("#PBJ").on("click", function () {
         alert(" ITS PEANUT BUTTA JELLY TIME");
         PBJCounter++;
@@ -22,4 +28,22 @@ $(document).ready(function () {
         RoastBeef++;
         alert("you ate " + RoastBeef + " Roast Beef Sandwiches");
     });
+
+    $("#ferrari").on("click", function () {
+        alert("Italian Classic");
+        Ferrari++;
+        alert(" you chose " + Ferrari + " fine piece of italian machinery");
+    });
+
+    $("#GTR").on("click", function () {
+        alert(" GODZILLA");
+        GTR++;
+        alert("you have awoken " + GTR + " japanese monster on wheels");
+    })
+
+    $("#Supra").on("click", function () {
+        alert("Ready for take off? ");
+        Supra++;
+        alert("you purchased " + Supra + " turbo monster");
+    })
 });
