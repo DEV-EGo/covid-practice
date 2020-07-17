@@ -15,18 +15,26 @@ $(document).ready(function () {
         alert(" ITS PEANUT BUTTA JELLY TIME");
         PBJCounter++;
         alert(" You ate " + PBJCounter + " PBJ sandwiches");
+
+        $("#image-div").html("<img src='https://i1.wp.com/snotapwi.com/wp-content/uploads/2017/03/PBJ-Sandwiches.jpg?resize=590%2C368&ssl=1' />")
     });
 
     $("#grilledCheese ").on("click", function () {
         alert("you want something that will hit the spot")
         GrilledCheese++;
         alert("you ate" + GrilledCheese + " GrilledCheese Sandwiches");
+
+        $("#image-div").html("<img src='http://cdn.funcheap.com/wp-content/uploads/2014/04/The-Perfect-Grilled-Cheese-Sandwich-800-158111.jpg' />")
+
     });
 
     $("#RoastBeef").on("click", function () {
         alert("you want some cheese with it");
         RoastBeef++;
         alert("you ate " + RoastBeef + " Roast Beef Sandwiches");
+
+        $("#image-div").html("<img src='https://www.cscassets.com/recipes/wide_cknew/wide_25336.jpg'/>")
+
     });
 
     $("#ferrari").on("click", function () {
