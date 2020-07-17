@@ -26,6 +26,8 @@ var cartoon = [
 var cartoonList = $("#anime");
 
 for (var i = 0; i < cartoon.length; i++) {
+
     var cartoons = $("<div>") + cartoon[i] + ("</div>");
     cartoonList.append(cartoons);
+
 }
