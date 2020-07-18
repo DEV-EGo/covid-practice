@@ -42,7 +42,7 @@ $(document).ready(function () {
         Ferrari++;
         alert(" you chose " + Ferrari + " fine piece of italian machinery");
 
-        $("#image-div").html("<img src= https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhbgeiol_ut5k7XXCQW4RsBQDtW92Ea5EeGw&usqp=CAU");
+        $("#image-div").html("<img src= https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRiZ7ZMfi1murVWNtBuMN03lxRw6anU5QODw&usqp=CAU' />");
     });
 
     $("#GTR").on("click", function () {
@@ -50,7 +50,7 @@ $(document).ready(function () {
         GTR++;
         alert("you have awoken " + GTR + " japanese monster on wheels");
 
-        $("#image-div").html("<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUKFFVP6zJygWbRaO3MobP8Gkh4S_EXT63aQ&usqp=CAU' />")
+        $("#image-div").html("<img src='https://cars.usnews.com/static/images/Auto/custom/13302/2017_Nissan_GT-R_1.jpg' />")
 
     })
 
@@ -59,6 +59,6 @@ $(document).ready(function () {
         Supra++;
         alert("you purchased " + Supra + " turbo monster");
 
-        $("#image-div").html("<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjnbDYVyoChm7eglbxOBCZAFEdsmuQLVha5g&usqp=CAU");
+        $("#image-div").html("<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTX0O-_WAYWrnZmI6vtGf3EP7rVDpjTUY8mVg&usqp=CAU' />");
     })
 });
