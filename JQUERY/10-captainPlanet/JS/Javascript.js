@@ -45,4 +45,32 @@ $(document).ready(function () {
     $(".stretch-btn").on("click", function () {
         captainPlanet.animate({ height: "1000px", width: "200px" });
     });
+
+    $(".unstretch-btn").on("click", function () {
+        captainPlanet.animate({ height: "300px", width: "450px" });
+    });
+
+    // move buttons
+
+    $("up-button").on("click", function () {
+        captainPlanet.animate({ top: "-=200px" }, "normal");
+    });
+
+    $("down-button").on("click", function () {
+        captainPlanet.animate({ left: "-=200px" }, "normal");
+    });
+
+    $("left-button").on("click", function () {
+        captainPlanet.animate({ left: "-=200px" }, "normal");
+    });
+
+    $(".right-button").on("click", function () {
+        captainPlanet.animate({ left: "+=200px" }, "normal");
+    });
+
+    $("back-button").on("click", function () {
+        captainPlanet.animate({ top: "50px", left: "80px" }, "fast");
+    });
+
+    // keyboard control movement
 })
