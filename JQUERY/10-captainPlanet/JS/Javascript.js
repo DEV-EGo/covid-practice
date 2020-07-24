@@ -52,15 +52,15 @@ $(document).ready(function () {
 
     // move buttons
 
-    $("up-button").on("click", function () {
+    $(".up-button").on("click", function () {
         captainPlanet.animate({ top: "-=200px" }, "normal");
     });
 
-    $("down-button").on("click", function () {
+    $(".down-button").on("click", function () {
         captainPlanet.animate({ left: "-=200px" }, "normal");
     });
 
-    $("left-button").on("click", function () {
+    $(".left-button").on("click", function () {
         captainPlanet.animate({ left: "-=200px" }, "normal");
     });
 
@@ -73,4 +73,34 @@ $(document).ready(function () {
     });
 
     // keyboard control movement
-})
+
+    $(document).keyup(function (e) {
+        switch (e.which) {
+            // move button down
+            case 40:
+                captainPlanet.animate({ top: "+=200px" }, "normal");
+                break;
+
+            // move keyboard right
+
+            case 39:
+                captainPlanet.animate({ left: "+=200px" }, "normal");
+                break;
+
+            // move button up
+
+            case 38:
+                captainPlanet.animate({ top: " -=200px" }, "normal");
+                break;
+
+            // move button left
+
+            case 37:
+                captainPlanet.animate({ left: "-=200px" }, "normal");
+                break;
+
+            default:
+                break;
+        }
+    });
+});
