@@ -1,3 +1,8 @@
 body{
     background: #3c3e8b4a;
+    background-image: url(./Wallpaper\ meteorites\,\ stars\,\ planet\,\ 4k\,\ Space\ 7788614298.jpg); 
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
