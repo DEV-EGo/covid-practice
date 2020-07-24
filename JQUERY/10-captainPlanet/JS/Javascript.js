@@ -57,7 +57,7 @@ $(document).ready(function () {
     });
 
     $(".down-button").on("click", function () {
-        captainPlanet.animate({ left: "-=200px" }, "normal");
+        captainPlanet.animate({ top: "+=200px" }, "normal");
     });
 
     $(".left-button").on("click", function () {
@@ -68,7 +68,7 @@ $(document).ready(function () {
         captainPlanet.animate({ left: "+=200px" }, "normal");
     });
 
-    $("back-button").on("click", function () {
+    $(".back-button").on("click", function () {
         captainPlanet.animate({ top: "50px", left: "80px" }, "fast");
     });
 
