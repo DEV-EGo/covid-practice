@@ -11,7 +11,7 @@ var numberOptions = [3, 10, 7, 8];
 
 // creating for-loop to create the sonic's for each numberOption
 
-for (var i = 0; i < numberOption.length; i++) {
+for (var i = 0; i < numberOptions.length; i++) {
 
     // each iteration creates an image
 
@@ -23,12 +23,12 @@ for (var i = 0; i < numberOption.length; i++) {
 
     // each image will be given a src link 
 
-    SonicTheHedgeHog.attr("src", "https://media.giphy.com/media/1r8SIOmTZxzsOqB0us/giphy.gi");
+    SonicTheHedgeHog.attr("src", "https://media.giphy.com/media/1r8SIOmTZxzsOqB0us/giphy.gif");
 
     // each image will be given a data attribute called "data-sonic"
     // the data attribute will be set to equal the value of the array
 
-    SonicTheHedgeHog.attr("data-sonic", numberOption[i]);
+    SonicTheHedgeHog.attr("data-sonic", numberOptions[i]);
 
     // each image will be added to the page including its "class & attribute"
 
@@ -36,7 +36,7 @@ for (var i = 0; i < numberOption.length; i++) {
 }
 
 // this click event applies to every single sonic image not just one
-$("Sonic_image").on("click", function () {
+$(".Sonic_image").on("click", function () {
 
     // determining & extracting the values from the data attribute
     // using $(this) key words to specify that we should be extracting the sonic value of the clicks
@@ -47,5 +47,19 @@ $("Sonic_image").on("click", function () {
     Sonic_value = parseInt(Sonic_value);
 
     // adding sonic value to the users "counter"
+    // every click adds to the global counter
 
-})
+    counter += Sonic_value;
+
+    // all of the same game win-lose logic applies
+
+    alert(" new score " + counter);
+
+    if (counter === targetScore) {
+        alert(" you won!");
+    }
+
+    else if (counter >= targetScore) {
+        alert(" you loose ")
+    }
+});
