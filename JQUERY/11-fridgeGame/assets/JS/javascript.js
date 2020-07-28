@@ -13,7 +13,7 @@ $(document).ready(function () {
 
         var buttonsLetter = $("<button>");
 
-        buttonsLetter.addclass("letter-button letter letter-button-color");
+        buttonsLetter.addClass("letter-button letter letter-button-color");
 
         buttonsLetter.attr("data-letter", letters[i]);
 
@@ -22,10 +22,11 @@ $(document).ready(function () {
         $("#buttons").append(buttonsLetter);
     }
 
-    $("letter-button").on("click", function () {
+    $(".letter-button").on("click", function () {
+
         var magnet = $("<div>");
 
-        magnet.addclass("letter fridge-color");
+        magnet.addClass("letter fridge-color");
 
         magnet.text($(this).attr("data-letter"));
 
