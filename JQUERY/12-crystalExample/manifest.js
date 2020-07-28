@@ -23,13 +23,23 @@ var scoreTarget = 50;
 
 $("#number-limit").text(scoreTarget);
 
-
-// this new counter below will increase by *10* every time the image is clicked
-// then the display will show the value of the new score
-
 var ringcounter = 0;
+
+// adding code that selects a number either 5 or 10
+// number will be set at the beginning of the game
+
+var numberOption = [5, 7];
+var increment = numberOption[Math.round(Math.random())];
+
 $(".Sonic_ring").on("click", function () {
-    ringcounter += 10;
+
+    ringcounter += increment;
+
+    // this new counter below will increase by *10* every time the image is clicked
+    // then the display will show the value of the new score
+
+    // ringcounter += 10;
+
     alert(" Double XP points " + ringcounter + " UP! ");
 
     // creating logic that will "check" to see if the click counter matches the score limit
@@ -42,4 +52,11 @@ $(".Sonic_ring").on("click", function () {
 
         alert(" YOU WIN !");
     }
+    // adding "else if" condition if the user counter exceeds the score limit
+
+    else if (ringcounter >= scoreTarget) {
+        alert(" You Loose :( ");
+    }
+
+
 });
