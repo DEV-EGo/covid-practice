@@ -158,3 +158,40 @@ var laptops = function () {
 
 var runthis = laptops();
 runthis();
+
+// MORE
+var gulag = function () {
+    var COD = ["infinite", "BX", "clt"];
+
+    var warzone = function () {
+        var survive = ["battle royale"];
+
+        console.log(" where we landing boys ?" + COD);
+
+        console.log(" final teams in the? " + survive);
+
+    };
+
+    return warzone;
+};
+
+var deployteam = gulag();
+deployteam();
+
+// moreeee
+
+var food = function () {
+    var chicken = 'chich fil a';
+
+    var burger = function () {
+        var patty = 'five guys';
+
+        console.log(" eat more beef , less " + chicken);
+        console.log(" eat more chicken , less " + patty);
+    }
+
+    return burger;
+}
+
+var letseat = food();
+letseat();
