@@ -195,3 +195,22 @@ var food = function () {
 
 var letseat = food();
 letseat();
+
+// moreeee
+
+var race = function () {
+    var tuner = ' GT-86';
+
+    var muscle = function () {
+        var v8 = ' challenger';
+
+        console.log(" Drift missile :" + tuner);
+        console.log(" quarter mile king :" + v8);
+
+    }
+
+    return muscle;
+}
+
+var RaceLegend = race();
+RaceLegend();
