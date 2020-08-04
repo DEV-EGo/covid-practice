@@ -71,3 +71,90 @@ var thirdfunc = function () {
 var thirdtry = thirdfunc();
 
 thirdtry();
+
+// more practice
+var player = function () {
+    var draco = [' dragon'];
+
+    var secondP = function () {
+        var wolf = [' lobo'];
+
+        console.log("fly" + draco);
+
+        console.log("run" + wolf);
+    };
+    return secondP;
+};
+
+var hopethisworks = player();
+hopethisworks();
+
+// more
+
+var latino = function () {
+    var name = ['rico'];
+
+    var lastname = function () {
+        var lName = ['dinero'];
+
+        console.log("my name is " + name);
+
+        console.log("my last name is " + lName);
+
+    };
+    return lastname;
+};
+
+var credentials = latino()
+credentials();
+
+// more functions
+
+var wallet = function () {
+    var brand = ['supreme'];
+    var hype = function () {
+        var soldout = ['BOGO'];
+
+        console.log("la cartera es " + brand);
+        console.log("i bought the last " + soldout);
+
+
+    };
+    return hype;
+};
+
+var consumer = wallet();
+consumer();
+
+// more
+var elPadre = function () {
+    var primero = ["this is the parent function"];
+    var segundo = function () {
+        var adentro = ["this is the child function inside the parent"];
+        console.log("parent function is? " + primero);
+        console.log("child function is? " + adentro);
+    };
+    return segundo;
+};
+
+var explanation = elPadre();
+explanation();
+
+// more 
+
+var laptops = function () {
+    var whatkind = ['mac', 'alien ware'];
+
+    var expensive = function () {
+        var techGiants = [' idk'];
+
+        console.log(" i need a new ?" + whatkind);
+        console.log("whats going on? " + techGiants);
+
+    };
+
+    return expensive;
+};
+
+var runthis = laptops();
+runthis();
