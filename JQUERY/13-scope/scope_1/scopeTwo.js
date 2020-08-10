@@ -61,3 +61,33 @@ var ReadyPlayerOne = {
 ReadyPlayerOne.CharactersIntel();
 
 console.log("===========more practice==============");
+
+var gt86 = {
+    Brand: "Toyota",
+    Type: "Race Car",
+    style: "Coupe",
+
+    carInfo: function () {
+        console.log("this is the top of the car info function");
+
+        console.log(
+            "Brand", this.Brand,
+            "Type", this.Type,
+            "Style", this.style
+        );
+
+        var coPilotNest = function () {
+
+            console.log(this);
+
+            console.log(
+                "Brand", this.Brand,
+                "Type", this.Type,
+                "Style", this.Type
+            );
+        };
+        coPilotNest();
+    }
+};
+
+gt86.carInfo();
