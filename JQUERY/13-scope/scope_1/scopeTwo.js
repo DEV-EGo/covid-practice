@@ -91,3 +91,36 @@ var gt86 = {
 };
 
 gt86.carInfo();
+
+console.log("===========more practice==============");
+
+var work = {
+    Hustle: ["cashFlow", "Infinite", "DevOp"],
+    type: "Fiat",
+    style: "HardWork NO days off",
+
+    Networking: function () {
+
+        console.log("side hustle info");
+
+        console.log(
+            "Hustle:", this.Hustle,
+            "type:", this.type,
+            "style:", this.style
+        );
+
+        var letsmakeCash = function () {
+
+            console.log(this);
+
+            console.log(
+                "Hustle:", this.Hustle,
+                "type:", this.type,
+                "style:", this.style
+            );
+        };
+        letsmakeCash();
+    }
+};
+
+work.Networking();
