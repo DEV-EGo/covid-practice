@@ -124,3 +124,33 @@ var work = {
 };
 
 work.Networking();
+
+var zone = {
+    hobby: ["code", "draw", "infinite"],
+    source: "exploring my skills",
+    LoveIt: true,
+
+    mylifebelike: function () {
+        console.log("stuff i love");
+        console.log(
+            "hobby", this.hobby,
+            "source", this.source,
+            "loveIt:", this.LoveIt,
+        );
+
+        var insidemylifebelike = function () {
+
+            console.log(this);
+
+            console.log(
+                "hobby", this.hobby,
+                "source", this.source,
+                "loveIt", this.LoveIt
+            );
+        };
+        insidemylifebelike();
+    }
+
+};
+
+zone.mylifebelike();
