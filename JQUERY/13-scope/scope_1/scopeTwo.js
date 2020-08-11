@@ -154,3 +154,60 @@ var zone = {
 };
 
 zone.mylifebelike();
+
+console.log("===========more practice==============");
+
+var theHood = {
+    places: ['thebronx', 'charlotte', 'compton', 'batton rouge'],
+    state: ['NYC', 'NC', 'LA', 'NOLA'],
+    crime: ['murder', 'theft', 'larceny'],
+
+    ghetto: function () {
+        console.log("this is living in the hood");
+        console.log("Places:", this.places,
+            "states:", this.state,
+            "crime:", this.crime);
+
+        var escape = function () {
+            console.log(this);
+            console.log("places", this.places,
+                "State", this.state,
+                "crime", this.crime
+            );
+        };
+        escape();
+    }
+};
+
+theHood.ghetto();
+
+console.log("===========more practice==============");
+
+var jordan = {
+    shoes: ["13's", "11's", "5's", "6's"],
+    store: ["footlocker", "Champs", "footaction"],
+    color: "black",
+
+    sneakerHead: function () {
+
+        console.log("sneaker list");
+        console.log(
+            "shoes", this.shoes,
+            "store", this.store,
+            "color", this.color);
+
+        var hypebeast = function () {
+
+            console.log(this);
+            console.log(
+                "shoes", this.shoes,
+                "store", this.store,
+                "color", this.color
+            );
+
+        };
+        hypebeast();
+    }
+};
+
+jordan.sneakerHead();
