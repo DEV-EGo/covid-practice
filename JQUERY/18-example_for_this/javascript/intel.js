@@ -46,4 +46,45 @@ var computerBrand = {
 
 computerBrand.buyitnow();
 
+// --------------------------------------------------
 
+var marvel = {
+
+    hero: [
+        "punisher",
+        "HULK",
+        "SpiderMan",
+        "Venom"
+    ],
+
+    ListOfHeros: function () {
+
+        console.log(this.hero);
+
+    }
+};
+
+marvel.ListOfHeros();
+
+// --------------------------------------------------
+
+var infinite = {
+    jobs: ["ford", "Ram", "masserati"],
+
+    payday: function () {
+        console.log(this.jobs);
+    }
+};
+
+infinite.payday();
+
+// --------------------------------------------------
+var frontEndDev = {
+    fullstack: ["js", "react", "angular", "mongo", "node"],
+
+    getaJob: function () {
+        console.log(this.fullstack);
+    }
+};
+
+frontEndDev.getaJob();
