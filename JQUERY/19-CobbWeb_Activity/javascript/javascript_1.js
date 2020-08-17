@@ -21,12 +21,14 @@ var HypeBeast = {
                 ]
             }
         },
-        HEATALERT: {
+        HEATALERT:
+        {
             item: " Chicago 1's"
+
         }
     }
 };
 
 console.log("There is light resell " + "in " + HypeBeast.GeneralRelease.NoResell.item[0]);
 console.log("There is resell" + " in " + HypeBeast.GeneralRelease.NoResell.Flip.item + "!");
-console.log("Get Rich by finding and selling" + HypeBeast.NoResell.HEATALERT.item);
+console.log("Get Rich by finding and selling" + HypeBeast.GeneralRelease.NoResell.Flip.HEATALERT.item[0]);
