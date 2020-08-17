@@ -172,3 +172,35 @@ var musica = {
 };
 
 musica.blast();
+
+// ------------------EXAMPLE FOUR --------------------------------
+
+var fruit = {
+
+    healthy: [
+        "apples",
+        "bananas",
+        "Watermelon",
+        "Grapes"
+    ],
+
+    eatGood: function () {
+
+        var looseweight = this;
+
+        this.healthy = " youre going to look great";
+
+        var gettingskinny = function (skinny) {
+
+            looseweight.healthy = skinny;
+
+        };
+
+        gettingskinny(" Dropping 20lbs");
+
+        console.log(looseweight);
+
+    }
+};
+
+fruit.eatGood();
