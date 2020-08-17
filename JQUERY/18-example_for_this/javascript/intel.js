@@ -88,3 +88,87 @@ var frontEndDev = {
 };
 
 frontEndDev.getaJob();
+
+// --------------------------------------------------
+
+var afterwork = {
+    todoList: ["finish jobs", "getFood", "meet mom"],
+
+    letsride: function () {
+        console.log(this.todoList);
+    }
+};
+
+afterwork.letsride();
+
+
+// EXAMPLE FOUR (BONUS, TRICKY!):
+// --------------------------------------------------
+// What is "myObj.yell()" going to print? Why? Power up.  
+
+
+var newthing = {
+    typeofName: "",
+    yell: function () {
+
+        this.typeofName = " this should be the first name to appear";
+
+        var changingtypeofName = function (newName) {
+
+            this.typeofName = newName;
+
+        };
+
+        changingtypeofName("new second name who this");
+
+        console.log(this);
+
+    }
+};
+
+newthing.yell();
+
+// ------------------EXAMPLE FOUR --------------------------------
+
+var nextry = {
+    tryingNewname: "",
+
+    bachata: function () {
+
+        this.tryingNewname = " new try";
+
+        var switchingItUP = function (letsDance) {
+
+            this.tryingNewname = letsDance;
+
+        };
+
+        switchingItUP(" bachateame");
+        console.log(this);
+
+    }
+};
+
+nextry.bachata();
+
+// ------------------EXAMPLE FOUR --------------------------------
+
+var musica = {
+    tunes: "",
+    blast: function () {
+
+        var music = this;
+
+        this.tunes = " apple music";
+
+        var newSong = function (spotify) {
+            music.tunes = spotify;
+        };
+
+        newSong(" trap tunes");
+        console.log(music);
+
+    }
+};
+
+musica.blast();
