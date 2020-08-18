@@ -1,34 +1,36 @@
-var HypeBeast = {
+var hypebeast = {
 
     GeneralRelease: {
-        item: " NOT HEAT",
 
-        NoResell: {
-            item:
-                [
-                    "Wolf Grey 5's",
-                    "Flint 7's",
-                    "Thunder 17's"
-                ],
+        items: " JORDANS",
 
-            Flip: {
-                item:
-                    "Travis Scott 4's",
-                brick: [
-                    "Black Cat 4's",
-                    "Satin 1's",
-                    "Pine Green 1's"
-                ]
+        SemiRelease: {
+            items: [
+                " Airforce ones",
+                " Converse",
+                " Bapestas"
+            ],
+
+            Smallrelease: {
+                items: " VLONE Merch"
+                ,
+
+                TinyRelease: {
+                    items: [
+                        " Team Jordans",
+                        " Reeboks",
+                        " AirMax 270's"
+                    ]
+                }
+            },
+            restock: {
+                items: " Supreme Air Force Ones"
             }
-        },
-        HEATALERT:
-        {
-            item: " Chicago 1's"
-
         }
     }
 };
 
-console.log("There is light resell " + "in " + HypeBeast.GeneralRelease.NoResell.item[0]);
-console.log("There is resell" + " in " + HypeBeast.GeneralRelease.NoResell.Flip.item + "!");
-console.log("Get Rich by finding and selling" + HypeBeast.GeneralRelease.NoResell.Flip.HEATALERT.item[0]);
+console.log(" Flip of The Day" + hypebeast.GeneralRelease.SemiRelease.items[0]);
+console.log(" Second chance at making money" + hypebeast.GeneralRelease.SemiRelease.Smallrelease.items + "!");
+console.log(" Do not buy these bricks" + hypebeast.GeneralRelease.SemiRelease.Smallrelease.TinyRelease.items + " you will loose money");
+console.log(" MAJOR RESTOCK COMING SOON" + hypebeast.GeneralRelease.SemiRelease.Smallrelease.TinyRelease.restock.items + " dont sleep!");
