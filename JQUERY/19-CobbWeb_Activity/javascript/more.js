@@ -13,8 +13,10 @@ var resell = {
             ],
 
             LowResell: {
+
                 stock: "Panini Cards"
                 ,
+
                 Brick: {
                     stock: [
                         "pokemon cards",
