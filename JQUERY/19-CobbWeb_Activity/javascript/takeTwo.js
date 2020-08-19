@@ -1,6 +1,10 @@
 var hustle = {
 
-    money: " Rich Porter ",
+    money: [
+        " Rich Porter",
+        " Alpo Martinez",
+        " Aiz aka Ace"
+    ],
 
     alpo: {
 
@@ -37,16 +41,50 @@ var hustle = {
             "Rims",
             "Clothes"
         ]
+    },
+
+    LifeOfCrime: {
+
+        jail: [
+            " Murder",
+            " Extortion",
+            " Man Slaughter"
+        ]
+    },
+
+    Movie: {
+
+        lifeStory: [
+
+            "Paid N Full"
+        ]
+    },
+
+    Music: {
+
+        Rappers: [
+            " Camron",
+            " Future",
+            " Nas",
+            " Drake"
+        ]
     }
 
 };
 
-console.log(" kings of new york" + hustle.money);
+console.log("This was based on the biopic " + hustle.Movie.lifeStory);
 
-console.log(" You can find him in " + hustle.alpo.work);
+console.log("Narc kings of new york" + hustle.money);
 
-console.log(" im broke baby - " + hustle.alpo.AZ.work);
 
-console.log(" Alpo wacked the real " + hustle.alpo.MoneyMitch.work);
+console.log("Drug empire expanded from " + hustle.alpo.work);
 
-console.log(" We spent it all on " + hustle.theBag.luxury);
+console.log("im broke baby -" + hustle.alpo.AZ.work);
+
+console.log("Alpo wacked the real " + hustle.alpo.MoneyMitch.work);
+
+console.log("Every penny was spent on " + hustle.theBag.luxury);
+
+console.log("NYPD gathered enought evidence to convict these kingpin's with" + hustle.LifeOfCrime.jail);
+
+console.log("Artist like:" + hustle.Music.Rappers + " imortalized their life story in their music");
