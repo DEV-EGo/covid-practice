@@ -151,3 +151,65 @@ function Learn(NewLibrarys){
 }
 Learn(tech);
 console.log("==========more practice=====");
+
+var Ride=[
+    "Ferrari",
+    "McLaren",
+    "GTR",
+    "Porsche",
+    "Lambo"
+];
+
+function Whip(Foreign){
+    for (var e=0;e<Foreign.length;e++){
+        console.log(Foreign[e])
+    }
+}
+Whip(Ride);
+console.log("==========more practice=====");
+
+var Skills=[
+    "Weld",
+    "Code",
+    "Paint",
+    "Sneaker Resell",
+    "Stocks",
+    "Crypto"
+];
+function Money(GetPaid){
+    for(var u=0;u<GetPaid.length;u++){
+        console.log("i get paid by "+ GetPaid[u])
+    }
+}
+Money(Skills);
+console.log("==========more practice=====");
+
+var movies=[
+    "Godzilla",
+    "Kong",
+    "The Matrix",
+    "The Wolf of Wallstreet"
+];
+function Tunein(Blocbusters){
+    for (var w=0;w<Blocbusters.length;w++){
+        console.log(Blocbusters[w]+" is the best movie ever! ");
+    }
+}
+Tunein(movies);
+console.log("==========more practice=====");
+
+var christmas=[
+    "Gracie",
+    "Mom",
+    "Dad",
+    "Jordan"
+];
+
+function Gifts(Shopping){
+    for(var d=0;d<Shopping.length;d++){
+        console.log(Shopping[d]+" needs a gift");
+    }
+}
+Gifts(christmas);
+console.log("==========more practice=====");
+
