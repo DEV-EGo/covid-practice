@@ -213,3 +213,17 @@ function Gifts(Shopping){
 Gifts(christmas);
 console.log("==========more practice=====");
 
+var firstpersonShooter=[
+    "Call of Duty",
+    "Resident Evil",
+    "Medal Of Honor",
+    "DOOM"
+];
+
+function ShootEmUp(Glock){
+    for(var q=0;q<Glock.lenght;q++){
+        console.log(Glock[q] + " Lock & Load");
+    }
+}
+ShootEmUp(firstpersonShooter);
+console.log("==========more practice=====");
