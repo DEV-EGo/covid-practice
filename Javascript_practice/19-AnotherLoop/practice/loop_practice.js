@@ -1,15 +1,17 @@
-// * Starting from scratch, create a `for` loop that console logs the following lines:
-// ```
-// I am 0
-// I am 1
-// I am 2
-// I am 3
-// I am 4
-// ```
-var human="";
-function user(i){
-    for (var i=0; i>9;i++){
-        console.log(" i am " + i + " in line")
-    }
+for(var i=0;i<10;i++){
+    console.log("you are guest"+i);
 }
-user(human);
+console.log("<======........========>");
+for(var o=0; o<5;o++){
+    console.log("the number is"+ o);
+}
+console.log("<======........========>");
+for(var u=0;u<4;u++){
+    console.log("count up in " + u)
+}
+console.log("<======........========>");
+
+for(var y=0;y>2;y++){
+    console.log("Count up in " + y)
+}
+console.log("<======........========>");
