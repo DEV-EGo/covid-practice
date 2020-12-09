@@ -56,6 +56,20 @@ function Culture(Civilization){
 Culture(Ancients);
 console.log("<....======practice======....>")
 
+var NBA=[
+    "Chicago",
+    "Lakers",
+    "Hornets",
+    "Knicks",
+    "Heat"
+];
+
+function teams(Basketball){
+    for (var s=0; s<Basketball.length;s++){
+        console.log(Basketball[s]);
+    }
+}
+teams(NBA);
 console.log("<....======practice======....>")
 
 // var gamesystems=[
