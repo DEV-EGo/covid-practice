@@ -21,7 +21,24 @@ for(var b =0;  b < StudentsRow2; b++){
 }
 // Using the entireClass array, how do we access the second student in row 3?
 console.log(" second students in row 3 with in the class is");
-console.log(StudentsRow3[1]);
+console.log(StudentsRow3[1][2]);
 // Using the entireClass array, how do we access the third student in row 2?
 console.log(" the 3rd student in row 2 ...");
-console.log(StudentsRow3[2]);
+console.log(StudentsRow3[1][2]);
+
+      /////////////////////// second example created by me //////////////////////////////
+var spaceX =["Mars","Moon","New Earth"];
+var NASA =["Rockets","Moon","Russia"];
+
+var USAspaceMission = [spaceX, NASA];
+
+for (var s = 0; s < USAspaceMission.length;s++){
+    console.log(spaceX[s]);
+}
+
+for(var d = 0; d < spaceX.length;d++){
+    if(
+    spaceX[d].charAt(0) === "R") {
+    console.log(" first letter starts with R" + spaceX[d]);
+    }
+}
