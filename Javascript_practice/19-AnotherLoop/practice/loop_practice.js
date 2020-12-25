@@ -11,7 +11,22 @@ for(var u=0;u<4;u++){
 }
 console.log("<======........========>");
 
-for(var y=0;y>2;y++){
-    console.log("Count up in " + y)
+for(var r=0; r < 8;r++){
+    console.log("display" + r)
 }
+
+console.log("<======........========>");
+
+for (var t=0;t < 6; t++){
+    console.log(" my farm has "+ t + " animals")
+}
+console.log("<======........========>");
+
+for(var e=0; e > 4; e++){
+    console.log(" this car ran" + e)
+}
+console.log("<======........========>");
+
+console.log("<======........========>");
+
 console.log("<======........========>");

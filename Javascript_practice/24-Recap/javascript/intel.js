@@ -10,9 +10,9 @@ var StudentsRow3 = ["Noel","eppy","Juju","Tanner"]
 var EntireClass = [ StudentsRow1.StudentsRow2, StudentsRow3];
 
 // How do we print out every single student in Row 1?
-var i = 0; i < StudentsRow1; i++ {
+for (var i = 0; i < StudentsRow1; i++) {
     console.log(StudentsRow1[i]);
-}
+};
 // How do we print out every student in Row 2 whose first name begins with b?
 for(var b =0;  b < StudentsRow2; b++){
     if(StudentsRow2[b].charAt(0) === "b"){
