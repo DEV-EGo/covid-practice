@@ -20,5 +20,8 @@ for(var b =0;  b < StudentsRow2; b++){
     }
 }
 // Using the entireClass array, how do we access the second student in row 3?
-
+console.log(" second students in row 3 with in the class is");
+console.log(StudentsRow3[1]);
 // Using the entireClass array, how do we access the third student in row 2?
+console.log(" the 3rd student in row 2 ...");
+console.log(StudentsRow3[2]);
