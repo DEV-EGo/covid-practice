@@ -42,3 +42,30 @@ for(var d = 0; d < spaceX.length;d++){
     console.log(" first letter starts with R" + spaceX[d]);
     }
 }
+
+console.log("2nd mission");
+console.log(USAspaceMission[1]);
+
+console.log("entire mission catalog");
+console.log(NASA[1]);
+
+      /////////////////////// second example created by me //////////////////////////////
+var jobs = [
+    "Cash Flow",
+    "RGX",
+    "Infinite Auto",
+    "Jhonnys Auto"
+];
+
+var Ecom = [
+    "Cash Flow",
+    "E's Bodega"
+];
+
+var GetMoney = [Ecom, jobs];
+
+for(var r = 0; r< jobs.length;r){
+    if (jobs[r].charAt(0) === "C"){
+        console.log(" first letter of this item is "+ jobs[r])
+    }
+}
