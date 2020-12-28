@@ -46,7 +46,7 @@ for(var d = 0; d < spaceX.length;d++){
 console.log("2nd mission");
 console.log(USAspaceMission[1]);
 
-console.log("entire mission catalog");
+console.log("entire mission xcatalog");
 console.log(NASA[1]);
 
       /////////////////////// second example created by me //////////////////////////////
