@@ -45,9 +45,12 @@ function ShowOnScreen(D_arr) {
     console.log("=========");
 }
 
+//executing functions
+
 ShowOnScreen(systems);
 ShowOnScreen(headphones);
-// more
+
+/////////////////////////////// more
 
 var soda = ["pepsi", "coke", "dr pepper"];
 var juice = ["apple", "orange", "Coconut"];
@@ -59,9 +62,11 @@ function Cook(recipe) {
     console.log("===F=O==O==D=");
 }
 
+//executing functions
+
 Cook(soda);
 Cook(juice);
-// more
+/////////////////////////////// more
 
 var music = ["2pac", "Biggie", "wayne", "drake"];
 var HipHop = ["GangstaRap", "R&B", "SouthernRapp", "EastCoast"];
@@ -73,11 +78,13 @@ function Rappers(IndependentArtist) {
     console.log("=========MusicArtist===============");
 }
 
+//executing functions
 
 Rappers(music);
 Rappers(HipHop);
 
-// moreeeeee
+/////////////////////////////// moreeeeee
+
 var Trucks = ["f-150", "Raptor", "Tahoe", "silverado", "Tacoma"];
 var RaceCar = ["F-RS", "370z", "Skyline", "Ferrari"];
 
@@ -87,11 +94,14 @@ function GoFast(PickThis) {
     }
     console.log("=======pick a car========")
 }
+
+//executing functions
+
 GoFast(Trucks);
 GoFast(RaceCar);
 
 
-// MORE
+//////////////////////////////// MORE
 var urbanclothes = ["BAPE", "SUPREME", "OFFWHITE", "THEHUNDREDS"];
 var HighEndClothes = ["GUCCI", "LV", " PRADA", "BALMAIN"];
 
@@ -100,10 +110,13 @@ function imFLy(CostAlot) {
         console.log(CostAlot[R]);
     }
 }
+
+//executing functions
+
 imFLy(urbanclothes);
 imFLy(innerHeight);
 
-// MORE
+///////////////////////////////// MORE
 
 var food = ["burger king", "McDonalds", "Wendys"];
 var mexicanFood = ["tacos", "tortas", "enchiladas"];
@@ -114,9 +127,11 @@ function Food(LetsEat) {
     }
 }
 
+//executing functions
+
 Food(food);
 Food(mexicanFood);
-// more
+/////////////////////////////////// more
 
 console.log("=========work===============");
 
@@ -130,5 +145,44 @@ function labor(JobsTOwork) {
     console.log("============jobs practice===========");
 }
 
+//executing functions
+
 labor(trabajo);
 labor(quitJob);
+
+/////////////////////////////////// more
+console.log("=========work===============");
+
+var food = ["Cookout","Chick Fill-A","BurgerKing", "McDonalds"];
+var veggies = ["Apple", "Broccoli","Bananas", "Pear"];
+
+// creating function
+function EatThis(Food){
+    for(var u=0; u <Food.length;u++){
+        // each time we print out the value inside the array
+        console.log(Food[u])
+    }
+    console.log("============jobs practice===========");
+}
+
+// Executing function
+
+Food(food);
+Food(veggies);
+console.log("============jobs practice===========");
+
+
+/////////////////////////////////// more
+var Spanish =["Mexico", "Brazil", "Paraguay", "Colombia","Portugal"];
+var Europe = ["UK","Germany","Poland","France","Italia"];
+
+// creating function
+function WorldWide(Countrys) {
+    for(var q=0; q<Countrys.length; q++){
+        console.log(Countrys[q])
+    }
+    console.log("============jobs practice===========");
+}
+// Executing function
+WorldWide(Spanish);
+WorldWide(Europe);
