@@ -200,3 +200,19 @@ function Monsters(Cartoon){
 // executing function
 Monsters(pokemon);
 Monsters(Digimon);
+
+console.log("============jobs practice===========");
+
+var DC =["Batman","Superman", "Green Lantern","Flash"];
+var Marvel= [ "Iron Man", "BlackPanther", "HULK","Ant Man"];
+
+function ComicBook(Characters){
+    for (t =0 ; t< Characters.length;t++){
+        console.log(Characters[t])
+    }
+    console.log("============jobs practice===========");
+}
+// executing function
+
+ComicBook(DC);
+ComicBook(Marvel);
