@@ -169,7 +169,6 @@ function EatThis(Food){
 
 Food(food);
 Food(veggies);
-console.log("============jobs practice===========");
 
 
 /////////////////////////////////// more
@@ -186,3 +185,18 @@ function WorldWide(Countrys) {
 // Executing function
 WorldWide(Spanish);
 WorldWide(Europe);
+
+console.log("============jobs practice===========");
+var pokemon =[ "Pikachu", "Charmander","Squirtle","Bulbasaur"];
+var Digimon =[ "Agumon","Patamon","Gatomon","Gabumon","Angemon"];
+
+// creating function
+function Monsters(Cartoon){
+    for(r =0; r<Cartoon.length; r++){
+        console.log(Cartoon[r])
+    }
+    console.log("============jobs practice===========");
+}
+// executing function
+Monsters(pokemon);
+Monsters(Digimon);
