@@ -115,6 +115,8 @@ function imFLy(CostAlot) {
 
 imFLy(urbanclothes);
 imFLy(innerHeight);
+console.log("============urban wear practice===========");
+
 
 ///////////////////////////////// MORE
 
@@ -133,7 +135,7 @@ Food(food);
 Food(mexicanFood);
 /////////////////////////////////// more
 
-console.log("=========work===============");
+console.log("=========food practice===============");
 
 var trabajo = ["RGX", "INFINITE", "E-COM", "SNEAKERS"];
 var quitJob = ["RimRepair"];
@@ -162,7 +164,7 @@ function EatThis(Food){
         // each time we print out the value inside the array
         console.log(Food[u])
     }
-    console.log("============jobs practice===========");
+    console.log("============more food practice===========");
 }
 
 // Executing function
@@ -180,7 +182,7 @@ function WorldWide(Countrys) {
     for(var q=0; q<Countrys.length; q++){
         console.log(Countrys[q])
     }
-    console.log("============jobs practice===========");
+    console.log("============Country practice===========");
 }
 // Executing function
 WorldWide(Spanish);
@@ -195,7 +197,7 @@ function Monsters(Cartoon){
     for(r =0; r<Cartoon.length; r++){
         console.log(Cartoon[r])
     }
-    console.log("============jobs practice===========");
+    console.log("============Cartoon practice===========");
 }
 // executing function
 Monsters(pokemon);
@@ -210,9 +212,32 @@ function ComicBook(Characters){
     for (t =0 ; t< Characters.length;t++){
         console.log(Characters[t])
     }
-    console.log("============jobs practice===========");
+    console.log("============Characters practice===========");
 }
 // executing function
 
 ComicBook(DC);
 ComicBook(Marvel);
+
+// ========================================================================================
+
+var Warrior = [ "Aztec", " Samurai","Mongol", "Native American"];
+var Empire = [ "Mexico"," Japan", " Korea","North America"];
+
+//executing function
+function Conquer (Land){
+    for(var b=0; b < Land.length;b++){
+        console.log(Land[b]);
+    }
+    console.log("============ Conquer practice===========");
+
+}
+
+Conquer(Warrior);
+Conquer(Empire);
+
+// ========================================================================================
+var LifeFilm =[ "Matrix","Apocalypto","Snowden","The social network"];
+var ActionFilm =[ "Jhon Wick", "Godzilla","Kong","All Eyes on me"];
+
+// execting function
