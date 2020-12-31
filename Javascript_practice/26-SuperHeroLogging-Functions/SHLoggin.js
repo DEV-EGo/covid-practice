@@ -241,3 +241,44 @@ var LifeFilm =[ "Matrix","Apocalypto","Snowden","The social network"];
 var ActionFilm =[ "Jhon Wick", "Godzilla","Kong","All Eyes on me"];
 
 // execting function
+
+function FeatureFilms(BlockBuster){
+    for(var l =0; l < BlockBuster.length;l++){
+        console.log("You should watch " + BlockBuster[l])
+    }
+    console.log("============ Netflix and chill practice===========");
+
+}
+FeatureFilms(LifeFilm);
+FeatureFilms(ActionFilm);
+
+// ========================================================================================
+var Playstation= ["crash bandicoot", "resident evil", "Marvel vs capcom"];
+var xbox =["Halo","Doom","Mass Effect"];
+
+// execting function
+function GameSystem (PlayNow) {
+    for (runthat = 0; runthat<PlayNow.length;runthat++){
+    console.log(PlayNow[runthat])
+    }
+    console.log("============ Gamer practice===========");
+}
+GameSystem(Playstation);
+GameSystem(xbox);
+
+// ========================================================================================
+
+var JDM = [ "F-RS", "370z", "Skyline","240"]
+var USDM =[ "Chevelle","Challenger", "Charger","Nova SS"];
+
+// executing function 
+function letsride(BurnRubber){
+    for(takeOff = 0; takeOff<BurnRubber.length; takeOff++){
+        console.log(BurnRubber[takeOff]+ "start your engine ")
+    }
+    console.log("============ Racer practice===========");
+
+}
+
+letsride(JDM);
+letsride(USDM);
