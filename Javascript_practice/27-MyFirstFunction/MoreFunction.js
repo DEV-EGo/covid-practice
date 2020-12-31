@@ -41,3 +41,19 @@ function isString( x,y,z) {
     }
 }
 
+// vowel checker function
+// will log  wether or not the input is a vowel
+
+function vowelChecker (x) {
+    var FirstCharacter = x.toLowerCase().charAt(0);
+        if(FirstCharacter === "a" || FirstCharacter === "e" ||
+        FirstCharacter === "i" || FirstCharacter === "o" ||
+        FirstCharacter === "u") {
+            
+            // if this works the console will show
+            console.log("wow the 1st letter is a vowel")
+        }else{
+            // if not this will show
+            console.log("1st letter is not a vowel")
+        }
+}
